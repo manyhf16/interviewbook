@@ -9,7 +9,7 @@
   * [0005](chapter_01/0005.md)
   * [0006](chapter_01/0006.md)
   * [0007](chapter_01/0007.md)
-  * 0008
+  * [0008](chapter_01/0008.md)
   * 0009
   * 0010
 * [数据库](chapter_02/README.md)
