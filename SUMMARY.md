@@ -11,7 +11,7 @@
   * [0007](chapter_01/0007.md)
   * [0008](chapter_01/0008.md)
   * [0009](chapter_01/0009.md)
-  * 0010
+  * [0010](chapter_01/0010.md)
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
