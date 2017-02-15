@@ -20,7 +20,7 @@
   * [0016](chapter_01/0016.md)
   * [0017](chapter_01/0017.md)
   * [0018](chapter_01/0018.md)
-  * 0019
+  * [0019](chapter_01/0019.md)
   * 1120
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
