@@ -89,7 +89,7 @@
   * [0085](chapter_01/0085.md)
   * [0086](chapter_01/0086.md)
   * [0087](chapter_01/0087.md)
-  * 0088
+  * [0088](chapter_01/0088.md)
   * 0089
   * [0090](chapter_01/0090.md)
 * [数据库](chapter_02/README.md)
