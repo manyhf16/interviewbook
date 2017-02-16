@@ -84,14 +84,14 @@
   * [0080](chapter_01/0080.md)
   * [0081](chapter_01/0081.md)
   * [0082](chapter_01/0082.md)
-  * 0083
+  * [0083](chapter_01/0083.md)
   * 0084
   * 0085
   * 0086
   * 0087
   * 0088
   * 0089
-  * 0090
+  * [0090](chapter_01/0090.md)
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
