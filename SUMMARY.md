@@ -80,7 +80,7 @@
   * [0076](chapter_01/0076.md)
   * [0077](chapter_01/0077.md)
   * [0078](chapter_01/0078.md)
-  * 0079
+  * [0079](chapter_01/0079.md)
   * 0080
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
