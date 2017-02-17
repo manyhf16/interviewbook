@@ -96,11 +96,11 @@
   * [0092](chapter_01/0092.md)
   * [0093](chapter_01/0093.md)
   * [0094](chapter_01/0094.md)
-  * 0095
-  * 0096
+  * [0095](chapter_01/0095.md)
+  * [0096](chapter_01/0096.md)
   * 0097
-  * 0098
-  * 0099
+  * [0098](chapter_01/0098.md)
+  * [0099](chapter_01/0099.md)
   * 0100
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
