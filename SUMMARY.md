@@ -101,7 +101,7 @@
   * [0097](chapter_01/0097.md)
   * [0098](chapter_01/0098.md)
   * [0099](chapter_01/0099.md)
-  * 0100
+  * [0100](chapter_01/0100.md)
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
