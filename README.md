@@ -50,54 +50,63 @@ public class Hello {
 
 ---
 
-{%ace edit=false, lang='java', theme='clouds'%}
+{%ace edit=false, lang='java', theme='cobalt'%}
 public class Hello {
   public static void main(String[] args){
-    System.out.println("clouds");
+    System.out.println("cobalt");
   }
 }
 {%endace%}
 
 ---
 
-{%ace edit=false, lang='java', theme='clouds'%}
+{%ace edit=false, lang='java', theme='crimson_editor'%}
 public class Hello {
   public static void main(String[] args){
-    System.out.println("clouds");
+    System.out.println("crimson_editor");
   }
 }
 {%endace%}
 
 ---
 
-{%ace edit=false, lang='java', theme='clouds'%}
+{%ace edit=false, lang='java', theme='dawn'%}
 public class Hello {
   public static void main(String[] args){
-    System.out.println("clouds");
+    System.out.println("dawn");
   }
 }
 {%endace%}
 
 ---
 
-{%ace edit=false, lang='java', theme='clouds'%}
+{%ace edit=false, lang='java', theme='dreamweaver'%}
 public class Hello {
   public static void main(String[] args){
-    System.out.println("clouds");
+    System.out.println("dreamweaver");
   }
 }
 {%endace%}
 
 ---
 
-{%ace edit=false, lang='java', theme='clouds'%}
+{%ace edit=false, lang='java', theme='eclipse'%}
 public class Hello {
   public static void main(String[] args){
-    System.out.println("clouds");
+    System.out.println("eclipse");
   }
 }
 {%endace%}
 
+---
+
+{%ace edit=false, lang='java', theme='github'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("github");
+  }
+}
+{%endace%}
 
 
 
