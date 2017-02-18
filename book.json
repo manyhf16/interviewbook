@@ -1,6 +1,7 @@
 {
     "plugins": [
         "ace",
-        "search-jieba"
+        "search-jieba",
+        "-search"
     ]
 }
