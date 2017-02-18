@@ -10,10 +10,10 @@ public class Hello {
 
 ---
 
-{%ace edit=false, lang='java', theme='Clouds'%}
+{%ace edit=false, lang='java', theme='Clouds Midnight'%}
 public class Hello {
   public static void main(String[] args){
-    System.out.println("Clouds");
+    System.out.println("Clouds Midnight");
   }
 }
 {%endace%}
