@@ -8,6 +8,7 @@ public class Hello {
 }
 {%endace%}
 
+---
 
 {%ace edit=false, lang='java', theme='Clouds'%}
 public class Hello {
