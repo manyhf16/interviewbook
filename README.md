@@ -237,6 +237,7 @@ public class Hello {
   }
 }
 {%endace%}
+
 ---
 
 {%ace edit=false, lang='java', theme='sqlserver'%}
