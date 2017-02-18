@@ -1,6 +1,10 @@
 {
-    "language" : "zh-hans",
     "plugins": [
-        "ace", "-lunr", "-search", "search-pro"
-    ]
+        "ace",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "betterchinese"
+    ],
+    "language": "zh-hans"
 }
