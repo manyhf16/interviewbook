@@ -3,8 +3,7 @@
         "ace",
         "-lunr",
         "-search",
-        "search-pro",
-        "betterchinese"
+        "search-pro"
     ],
     "language": "zh-hans"
 }
