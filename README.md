@@ -208,6 +208,257 @@ public class Hello {
 }
 {%endace%}
 
+---
+
+{%ace edit=false, lang='java', theme='solarized_dark'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("solarized_dark");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='solarized_light'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("solarized_light");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='terminal'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("terminal");
+  }
+}
+{%endace%}
+---
+
+{%ace edit=false, lang='java', theme='sqlserver'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("sqlserver");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='textmate'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("textmate");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='tomorrow'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("tomorrow");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='tomorrow_night'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("tomorrow_night");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='tomorrow_night_blue'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("tomorrow_night_blue");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='tomorrow_night_bright'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("tomorrow_night_bright");
+  }
+}
+{%endace%}
+
+
+---
+
+{%ace edit=false, lang='java', theme='tomorrow_night_eighties'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("tomorrow_night_eighties");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='twilight'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("twilight");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='vibrant_ink'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("vibrant_ink");
+  }
+}
+{%endace%}
+
+---
+
+{%ace edit=false, lang='java', theme='xcode'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("xcode");
+  }
+}
+{%endace%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
