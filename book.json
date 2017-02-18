@@ -1,5 +1,5 @@
 {
     "plugins": [
-        "ace", "-lunr", "-search", "search-pro", "plugin-zawgyicss"
+        "ace", "-lunr", "-search", "search-pro"
     ]
 }
