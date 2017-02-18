@@ -17,5 +17,5 @@
 * [架构，设计模式](chapter_09/README.md)
   * [单例模式](chapter_09/0001.md)
   * [简单工厂](chapter_09/0002.md)
-  * [0003](chapter_09/0003.md)
+  * [原型模式](chapter_09/0003.md)
 
