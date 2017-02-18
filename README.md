@@ -8,6 +8,21 @@ public class Hello {
 }
 {%endace%}
 
+{%ace edit=false, lang='java', theme='Clouds'%}
+public class Hello {
+  public static void main(String[] args){
+    System.out.println("Clouds");
+  }
+}
+{%endace%}
+
+
+
+
+
+
+
+
 
 
 
