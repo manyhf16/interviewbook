@@ -20,6 +20,7 @@
   * [0008](chapter_07/0008.md)
   * [0009](chapter_07/0009.md)
   * [0010](chapter_07/0010.md)
+  * [0011](chapter_07/0011.md)
 * [网络，分布式](chapter_08/README.md)
 * [架构，设计模式](chapter_09/README.md)
   * [单例模式](chapter_09/0001.md)
