@@ -20,4 +20,5 @@
   * [原型模式](chapter_09/0003.md)
   * [建造器模式](chapter_09/0004.md)
   * [享元模式](chapter_09/0005.md)
+* [算法，安全](chapter_10/README.md)
 
