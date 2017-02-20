@@ -171,4 +171,5 @@
   * [享元模式](chapter_09/0005.md)
   * [适配器模式](chapter_09/0006.md)
 * [算法，安全](chapter_10/README.md)
+  * [0001](chapter_10/0001.md)
 
