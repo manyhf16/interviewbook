@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "ace",
+        "-lunr",
+        "-search",
+        "search-pro"
+    ],
+    "language": "zh-hans"
+}
