@@ -170,7 +170,7 @@
   * [0166](chapter_01/0166.md)
   * [0167](chapter_01/0167.md)
   * [0168](chapter_01/0168.md)
-  * 0169
+  * [0169](chapter_01/0169.md)
   * 0170
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
