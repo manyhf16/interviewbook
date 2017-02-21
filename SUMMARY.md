@@ -161,7 +161,7 @@
   * [0157](chapter_01/0157.md)
   * [0158](chapter_01/0158.md)
   * [0159](chapter_01/0159.md)
-  * 0160
+  * [0160](chapter_01/0160.md)
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
