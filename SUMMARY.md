@@ -172,7 +172,7 @@
   * [建造器模式](chapter_09/0004.md)
   * [享元模式](chapter_09/0005.md)
   * [适配器模式](chapter_09/0006.md)
-  * [0007](chapter_09/0007.md)
+  * [装饰器模式](chapter_09/0007.md)
 * [算法，安全](chapter_10/README.md)
   * [斐波那契数列](chapter_10/0001.md)
 * [JVM，调优](chapter_11/README.md)
