@@ -196,6 +196,12 @@
   * [0193](chapter_01/0193.md)
   * [0194](chapter_01/0194.md)
   * [0195](chapter_01/0195.md)
+  * 0196
+  * 0197
+  * 0198
+  * 0199
+  * 0200
+  * 0201
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
@@ -224,4 +230,6 @@
   * [享元模式](chapter_09/0005.md)
   * [适配器模式](chapter_09/0006.md)
 * [算法，安全](chapter_10/README.md)
+
+
 
