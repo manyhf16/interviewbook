@@ -194,8 +194,8 @@
   * [0191](chapter_01/0191.md)
   * [0192](chapter_01/0192.md)
   * [0193](chapter_01/0193.md)
-  * 0194
-  * 0195
+  * [0194](chapter_01/0194.md)
+  * [0195](chapter_01/0195.md)
 * [数据库](chapter_02/README.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
