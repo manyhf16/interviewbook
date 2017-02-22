@@ -172,21 +172,14 @@
   * [建造器模式](chapter_09/0004.md)
   * [享元模式](chapter_09/0005.md)
   * [适配器模式](chapter_09/0006.md)
-<<<<<<< HEAD
-* [算法，数据结构，安全](chapter_10/README.md)
-  * [斐波那契数列](chapter_10/0001.md)
-* [JVM，调优](chapter_11/README.md)
-* [项目管理](chapter_12/README.md)
-
-=======
   * [装饰器模式](chapter_09/0007.md)
   * [代理模式](chapter_09/0008.md)
-* [算法，安全](chapter_10/README.md)
+* [算法，数据结构，安全](chapter_10/README.md)
   * [斐波那契数列](chapter_10/0001.md)
 * [JVM，调优](chapter_11/README.md)
   * [0001](chapter_11/0001.md)
   * [0002](chapter_11/0002.md)
   * [0003](chapter_11/0003.md)
   * [0004](chapter_11/0004.md)
->>>>>>> 925881eb6d1dc57da56231b2c0eeb7d76fd836d2
+* [项目管理](chapter_12/README.md)
 
