@@ -179,6 +179,8 @@
   * [模板方法](chapter_09/0011.md)
   * [迭代器模式](chapter_09/0012.md)
   * [命令模式](chapter_09/0013.md)
+  * [门面模式](chapter_09/0014.md)
+  * [观察者模式](chapter_09/0015.md)
 * [算法，数据结构，安全](chapter_10/README.md)
   * [斐波那契数列](chapter_10/0001.md)
   * [汉诺塔](chapter_10/0002.md)
