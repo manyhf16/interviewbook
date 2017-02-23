@@ -248,7 +248,6 @@
   * 0099
   * 0100
   * 0101
-  * 0049
 * [操作系统](chapter_06/README.md)
 * [多线程](chapter_07/README.md)
   * [0001](chapter_07/0001.md)
