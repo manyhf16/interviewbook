@@ -150,7 +150,7 @@
   * [0004](chapter_02/0004.md)
   * [0005](chapter_02/0005.md)
   * [0006](chapter_02/0007.md)
-  * [0008](chapter_02/0008.md)
+  * [0007](chapter_02/0008.md)
   * [0009](chapter_02/0009.md)
   * [0010](chapter_02/0010.md)
   * [0011](chapter_02/0011.md)
