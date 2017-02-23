@@ -243,7 +243,6 @@
   * [0031](chapter_04/0031.md)
   * [0032](chapter_04/0032.md)
   * [0033](chapter_04/0033.md)
-  * [0034](chapter_04/0034.md)
 * [开源框架](chapter_05/README.md)
 * [操作系统](chapter_06/README.md)
 * [多线程](chapter_07/README.md)
