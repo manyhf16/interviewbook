@@ -177,7 +177,6 @@
   * [0033](chapter_02/0033.md)
   * [0034](chapter_02/0034.md)
   * [0035](chapter_02/0035.md)
-  * [0036](chapter_02/0036.md)
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
 * [开源框架](chapter_05/README.md)
