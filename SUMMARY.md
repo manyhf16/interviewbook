@@ -144,7 +144,6 @@
   * [0140](chapter_01/0140.md)
   * [0141](chapter_01/0141.md)
 * [数据库](chapter_02/README.md)
-  * [0001?](chapter_02/0001.md)
   * [0002](chapter_02/0002.md)
   * [0003?](chapter_02/0003.md)
   * [0005?](chapter_02/0007.md)
