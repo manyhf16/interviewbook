@@ -168,13 +168,18 @@
   * [0022](chapter_02/0022.md)
   * [0023](chapter_02/0023.md)
   * [0024](chapter_02/0024.md)
-  * 0025
+  * [0025](chapter_02/0025.md)
   * 0026
   * 0027
   * 0028
   * 0029
   * 0030
 * [缓存](chapter_03/README.md)
+  * [0001](chapter_03/0001.md)
+  * 0002
+  * 0003
+  * 0004
+  * 0005
 * [Web编程](chapter_04/README.md)
 * [开源框架](chapter_05/README.md)
 * [操作系统](chapter_06/README.md)
