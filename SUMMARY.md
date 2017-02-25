@@ -152,7 +152,7 @@
   * [0006](chapter_02/0006.md)
   * [0007](chapter_02/0007.md)
   * [0008](chapter_02/0008.md)
-  * 0009
+  * [0009](chapter_02/0009.md)
   * 0010
 * [缓存](chapter_03/README.md)
 * [Web编程](chapter_04/README.md)
