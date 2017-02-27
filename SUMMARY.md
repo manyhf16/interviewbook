@@ -177,7 +177,7 @@
 * [缓存](chapter_03/README.md)
   * [0001](chapter_03/0001.md)
   * [0002](chapter_03/0002.md)
-  * 0003
+  * [0003](chapter_03/0003.md)
   * 0004
   * 0005
 * [Web编程](chapter_04/README.md)
