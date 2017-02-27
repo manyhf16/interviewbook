@@ -157,7 +157,7 @@
   * [0008](chapter_05/0008.md)
   * [0009](chapter_05/0009.md)
   * [0010](chapter_05/0010.md)
-  * [0009](chapter_05/0009.md)
+  * [0011](chapter_05/0011.md)
   * [0012](chapter_05/0012.md)
   * [0013](chapter_05/0013.md)
   * [0014](chapter_05/0014.md)
@@ -247,7 +247,7 @@
   * 0098
   * 0099
   * 0100
-  * 0101
+  * 0011
 * [操作系统](chapter_06/README.md)
 * [多线程](chapter_07/README.md)
   * [0001](chapter_07/0001.md)
