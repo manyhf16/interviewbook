@@ -426,5 +426,7 @@
   * [0002](chapter_11/0002.md)
   * [0003](chapter_11/0003.md)
   * [0004](chapter_11/0004.md)
+  * [0005](chapter_11/0005.md)
+  * [0006](chapter_11/0006.md)
 * [项目管理](chapter_12/README.md)
 
