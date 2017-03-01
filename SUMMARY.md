@@ -235,8 +235,8 @@
   * [0025](chapter_02/0025.md)
   * [0026](chapter_02/0026.md)
   * [0027](chapter_02/0027.md)
-  * 0028
-  * 0029
+  * [0028](chapter_02/0028.md)
+  * [0029](chapter_02/0029.md)
   * [0030](chapter_02/0030.md)
 * [缓存](chapter_03/README.md)
   * [0001](chapter_03/0001.md)
