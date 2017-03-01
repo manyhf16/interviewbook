@@ -205,7 +205,6 @@
   * [0202](chapter_01/0202.md)
   * [0203](chapter_01/0203.md)
   * [0204](chapter_01/0204.md)
-  * [0205](chapter_01/0205.md)
 * [数据库](chapter_02/README.md)
   * [0001](chapter_02/0001.md)
   * [0002](chapter_02/0002.md)
