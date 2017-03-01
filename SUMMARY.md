@@ -401,6 +401,7 @@
   * [0001](chapter_08/0001.md)
   * [0002](chapter_08/0002.md)
   * [0003](chapter_08/0003.md)
+  * [0004](chapter_08/0004.md)
 * [架构，设计模式](chapter_09/README.md)
   * [单例模式](chapter_09/0001.md)
   * [简单工厂](chapter_09/0002.md)
