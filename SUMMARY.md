@@ -284,7 +284,6 @@
   * [0040](chapter_04/0040.md)
   * [0041](chapter_04/0041.md)
   * [0042](chapter_04/0042.md)
-  * [0043](chapter_04/0043.md)
 * [开源框架](chapter_05/README.md)
   * [0001](chapter_05/0001.md)
   * [0002](chapter_05/0002.md)
