@@ -291,7 +291,6 @@
   * [0004](chapter_05/0004.md)
   * [0005](chapter_05/0005.md)
   * [0006](chapter_05/0006.md)
-  * [0007](chapter_05/0007.md)
   * [0008](chapter_05/0008.md)
   * [0009](chapter_05/0009.md)
   * [0010](chapter_05/0010.md)
