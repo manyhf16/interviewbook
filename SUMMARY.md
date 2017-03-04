@@ -340,6 +340,7 @@
   * [0053](chapter_05/0053.md)
   * [0054](chapter_05/0054.md)
   * [过气的框架](chapter_05/lagacy/README.md)
+    * [0007](chapter_05/0007.md)
 * [操作系统](chapter_06/README.md)
   * [0001](chapter_06/0001.md)
 * [多线程](chapter_07/README.md)
