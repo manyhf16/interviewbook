@@ -204,6 +204,12 @@
   * [0201](chapter_01/0201.md)
   * [0202](chapter_01/0202.md)
   * [0203](chapter_01/0203.md)
+* [缓存](chapter_03/README.md)
+  * [0001](chapter_03/0001.md)
+  * [0002](chapter_03/0002.md)
+  * [0003](chapter_03/0003.md)
+  * 0004
+  * 0005
 * [数据库](chapter_02/README.md)
   * [0001](chapter_02/0001.md)
   * [0002](chapter_02/0002.md)
@@ -235,12 +241,6 @@
   * [0028](chapter_02/0028.md)
   * [0029](chapter_02/0029.md)
   * [0030](chapter_02/0030.md)
-* [缓存](chapter_03/README.md)
-  * [0001](chapter_03/0001.md)
-  * [0002](chapter_03/0002.md)
-  * [0003](chapter_03/0003.md)
-  * 0004
-  * 0005
 * [Web编程](chapter_04/README.md)
   * [0001](chapter_04/0001.md)
   * [0002](chapter_04/0002.md)
