@@ -388,6 +388,8 @@
   * [冒泡排序](chapter_10/0004.md)
   * [选择排序](chapter_10/0005.md)
   * [快速排序](chapter_10/0006.md)
+  * [0007](chapter_10/0007.md)
+  * [0008](chapter_10/0008.md)
 * [JVM，调优](chapter_11/README.md)
   * [0001](chapter_11/0001.md)
   * [0002](chapter_11/0002.md)
