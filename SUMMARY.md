@@ -391,6 +391,9 @@
   * [0007](chapter_10/0007.md)
   * [0008](chapter_10/0008.md)
   * [0009](chapter_10/0009.md)
+  * [0010](chapter_10/0010.md)
+  * 0011
+  * 0012
 * [JVM，调优](chapter_11/README.md)
   * [0001](chapter_11/0001.md)
   * [0002](chapter_11/0002.md)
