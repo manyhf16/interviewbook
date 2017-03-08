@@ -419,6 +419,7 @@
   * [0004](chapter_11/0004.md)
   * [0005](chapter_11/0005.md)
   * [0006](chapter_11/0006.md)
+  * [0007](chapter_11/0007.md)
 * [项目管理](chapter_12/README.md)
   * [0001](chapter_12/0001.md)
 * [附录](chapter_last/README.md)
