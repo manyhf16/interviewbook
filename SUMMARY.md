@@ -373,8 +373,8 @@
   * [0007](chapter_08/0007.md)
   * [0008](chapter_08/0008.md)
   * [0009](chapter_08/0009.md)
-  * 0010
-  * 0011
+  * [0010](chapter_08/0010.md)
+  * [0011](chapter_08/0011.md)
 * [架构，设计模式](chapter_09/README.md)
   * [单例模式](chapter_09/0001.md)
   * [简单工厂](chapter_09/0002.md)
