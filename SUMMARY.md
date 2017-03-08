@@ -208,8 +208,8 @@
   * [0001](chapter_03/0001.md)
   * [0002](chapter_03/0002.md)
   * [0003](chapter_03/0003.md)
-  * 0004
-  * 0005
+  * [0004](chapter_03/0004.md)
+  * [0005](chapter_03/0005.md)
 * [数据库](chapter_02/README.md)
   * [0001](chapter_02/0001.md)
   * [0002](chapter_02/0002.md)
