@@ -342,6 +342,7 @@
     * [0001](chapter_05/lagacy/0001.md)
 * [操作系统](chapter_06/README.md)
   * [0001](chapter_06/0001.md)
+  * [0002](chapter_06/0002.md)
 * [多线程](chapter_07/README.md)
   * [0001](chapter_07/0001.md)
   * [0002](chapter_07/0002.md)
