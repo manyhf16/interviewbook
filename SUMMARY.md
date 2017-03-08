@@ -345,6 +345,8 @@
   * [0002](chapter_06/0002.md)
   * [0003](chapter_06/0003.md)
   * [0004](chapter_06/0004.md)
+  * [0005](chapter_06/0005.md)
+  * [0006](chapter_06/0006.md)
 * [多线程](chapter_07/README.md)
   * [0001](chapter_07/0001.md)
   * [0002](chapter_07/0002.md)
