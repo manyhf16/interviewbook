@@ -65,7 +65,7 @@ spring中的容器类型有两种：BeanFactory和ApplicationContext
 
 解决方法是将构造注入改造为set方法注入，spring会尽可能晚地处理set依赖关系，换句话说，spring会先构造bean的实例，再进行依赖注入，最后调用生命周期相关方法。
 
-# Sprint 的scope
+# Spring 的scope
 通过`<bean scope="singleton|prototype">`
 来控制bean的单例还是多例，singleton表示bean是单例的，prototype表示bean是多例的
 
