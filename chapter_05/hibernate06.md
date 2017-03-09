@@ -1,3 +1,10 @@
+---
+search:
+    keywords: ['hibernate','优点']
+
+---
+
+
 # 下面那几点是 hibernate的优势？（）
 
 A： 对JDBC访问数据库的代码做了封装，大大简化了数据访问层繁琐的重复性代码。
