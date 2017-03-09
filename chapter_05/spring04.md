@@ -89,4 +89,12 @@ spring事务管理的优点是将事务关注点提取出来，与正常的业�
 <!-- 让事务注解生效 -->
 <tx:annotation-driven/>
 ```
+
+```java
+@Transactional
+@Service
+public class UserServiceImpl implements UserService { 
+
+}
+```
 ---
