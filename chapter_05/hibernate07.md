@@ -1,3 +1,11 @@
+---
+search:
+    keywords: ['hibernate','opensession','getcurrentsession']
+
+---
+
+
+
 # hibernate中openSession()和getCurrentSession()两个方法的区别？
 
 
