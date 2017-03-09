@@ -1,4 +1,4 @@
-# 在Spring中,FactoryBean和BeanFactory的区别？
+# 在spring中,FactoryBean和BeanFactory的区别？
 
 
 # 参考解答
