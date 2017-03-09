@@ -1,4 +1,4 @@
-# Hibernate的应用（Hibernate的结构）？【基础】 
+# Hibernate的应用（Hibernate的结构）？
 
 # 参考解答：
 
