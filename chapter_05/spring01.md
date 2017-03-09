@@ -52,7 +52,7 @@ spring中的容器类型有两种：BeanFactory和ApplicationContext
  
 * ApplicationContext和BeanFactory的关系是组合而非继承。
 
-# Spring 依赖注入的类型
+# Spring 依赖注入的方式
 spring中依赖注入分为set注入和构造注入。另外还可以通过@Autowired @Resource @Value 进行注入，它们可以分别用于set方法注入、构造方法注入和field属性注入。
 
 # AOP
