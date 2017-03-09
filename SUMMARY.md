@@ -299,6 +299,7 @@
   * [spring08](chapter_05/spring08.md)
   * [spring09](chapter_05/spring09.md)
   * [spring10](chapter_05/spring10.md)
+  * [spring11](chapter_05/spring11.md)
   * [0001](chapter_05/0001.md)
   * [0002](chapter_05/0002.md)
   * [0003](chapter_05/0003.md)
