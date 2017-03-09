@@ -1,3 +1,10 @@
+---
+search:
+    keywords: ['spring', 'beanfactory', 'applicationcontext']
+
+---
+
+
 # 题目问法
 
 1. spring中BeanFactory和ApplicationContext的联系和区别？
