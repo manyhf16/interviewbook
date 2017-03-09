@@ -13,6 +13,8 @@ search:
 
 2. 简述面向切面编程AOP的好处？spring中常见的基础切面有哪些？切面的实现原理是什么？
 
+3. spring中BeanFactory和ApplicationContext的联系和区别
+
 
 # 参考解答
 spring 有两大核心思想：控制反转（IOC）和面向切面编程（AOP）
@@ -35,6 +37,19 @@ DI即Dependency Injection，是对IOC概念的一个补充。
 正是因为控制反转和依赖注入，使得spring可以和绝大多数开源框架整合。
 
 ## Spring IOC 容器的类型
+spring中的容器类型有两种：BeanFactory和ApplicationContext
+
+* BeanFactory接口定义了Spring最基本的功能：实例化和依赖注入，可以按照bean id或bean type从容器获取bean实例。
+
+* ApplicationContext扩展了BeanFactory：
+ * 容器之间可以继承，子容器能够访问父容器定义的bean，但反之不行
+ * 不像是BeanFactory只能一个个地得到容器中的bean，ApplicationContext可以获取所有bean的名称，或者按照Bean的名称或类型查询容器中的bean
+ * ApplicationContext继承了MessageSource来承诺实现资源文件管理和国际化
+ * ApplicationContext继承了ApplicationEventPublisher来承诺实现事件推送编程
+ * ApplicatonContext继承了ResourcePatternResolver来处理Spring中的Resource资源
+
+> 值得一提的是：BeanFactory的另一个重要子接口
+ConfigurableListableBeanFactory承诺实现容器外的bean的属性织入，并具备添加BeanPostProcessor等功能
 
 
 ---
