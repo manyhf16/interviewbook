@@ -15,6 +15,10 @@ search:
 
 3. spring中BeanFactory和ApplicationContext的联系和区别
 
+4. spring中循环注入
+
+5. spring中依赖注入的方式
+
 
 # 参考解答
 spring 有两大核心思想：控制反转（IOC）和面向切面编程（AOP）
