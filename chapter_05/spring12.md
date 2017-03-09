@@ -6,8 +6,7 @@ search:
 
 # srpingMVC的原理
 
-
-# 参考解答：
+# 参考解答
 
 SpringMVC的执行流程（ModelAndView）可以参考下图：![](/assets/2.png)
 
