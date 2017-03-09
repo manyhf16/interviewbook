@@ -1,3 +1,12 @@
+---
+search:
+    keywords: ['spring','scope','singleton','prototype']
+
+---
+
+
+
+
 # spring 的 scope
 
 # 参考解答
