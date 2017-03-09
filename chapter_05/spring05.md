@@ -1,3 +1,11 @@
+---
+search:
+    keywords: ['spring','异常']
+
+---
+
+
+
 # spring 常见异常
 Spring 中什么时候引起NoWritablePropertyException?
 什么时候出现could not open class path resource[ApplicationContext.xml]
