@@ -1,6 +1,6 @@
 ---
 search:
-    keywords: ['spring','核心','ioc','aop','di','控制反转','依赖注入','面向切面编程', 'beanfactory', 'applicationcontext', '注入方式']
+    keywords: ['spring','核心','ioc','aop','di','控制反转','依赖注入','面向切面编程', 'beanfactory', 'applicationcontext', '依赖注入方式']
 
 ---
 
