@@ -32,7 +32,7 @@ update h_user set username=?, password=? where id = ?
 delete from h_user where id = ?
 select id, username, password from h_user where id = ?
 ```
-当执行 session.save(user)时，会执行如下的等价jdbc代码：
+当执行 `session.save(user)` 时，会执行如下的等价jdbc代码：
 ```java
 PreparedStatement ps = conn.preparedStatement("insert into h_user (id,username,password) values(?,?,?)");
 ps.setInt(1, user.getId());
