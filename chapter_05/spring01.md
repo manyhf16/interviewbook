@@ -43,7 +43,7 @@ spring中的容器类型有两种：BeanFactory和ApplicationContext
 
 * ApplicationContext扩展了BeanFactory：
  * 容器之间可以继承，子容器能够访问父容器定义的bean，但反之不行
- * 不像是BeanFactory只能一个个地得到容器中的bean，ApplicationContext可以获取所有bean的名称，或者按照Bean的名称或类型查询容器中的bean
+ * 不像是BeanFactory只能一个个地得到容器中的bean，ApplicationContext可以获取所有bean的名称，或者按照条件查询容器中的bean
  * ApplicationContext继承了MessageSource来承诺实现资源文件管理和国际化
  * ApplicationContext继承了ApplicationEventPublisher来承诺实现事件推送编程
  * ApplicatonContext继承了ResourcePatternResolver来处理Spring中的Resource资源
