@@ -13,7 +13,7 @@ search:
 
 2. 简述面向切面编程AOP的好处？spring中常见的基础切面有哪些？切面的实现原理是什么？
 
-3. spring中BeanFactory和ApplicationContext的联系和区别
+
 
 4. spring中循环注入
 
