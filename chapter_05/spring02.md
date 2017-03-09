@@ -1,3 +1,9 @@
+---
+search:
+    keywords: ['springmvc','spring模块']
+
+---
+
 # spring 应用
 
 # 题目问法
