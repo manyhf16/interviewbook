@@ -1,3 +1,11 @@
+---
+search:
+    keywords: ['spring', 'beanfactory', 'applicationcontext']
+
+---
+
+
+
 # 在spring中,FactoryBean和BeanFactory的区别？
 
 
