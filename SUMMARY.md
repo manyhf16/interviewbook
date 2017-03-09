@@ -311,7 +311,6 @@
   * [0019](chapter_05/0019.md)
   * [0020](chapter_05/0020.md)
   * [0022](chapter_05/0022.md)
-  * [0023](chapter_05/0023.md)
   * [0024](chapter_05/0024.md)
   * [0025](chapter_05/0025.md)
   * [0026](chapter_05/0026.md)
