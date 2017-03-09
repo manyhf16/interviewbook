@@ -1,0 +1,33 @@
+---
+search:
+    keywords: ['springmvc','原理']
+
+---
+
+
+
+# srpingMVC的原理
+
+
+# 参考解答：
+
+SpringMVC的执行流程（ModelAndView）可以参考下图：![](/assets/2.png)
+
+
+1）客户端请求提交到DispatcherServlet
+
+2）HandlerExecutionChain会在请求
+
+2）由DispatcherServlet控制器查询一个或多个HandlerMapping，找到处理请求的Controller
+
+3）由HandlerAdapter负责调用该controller，HandlerExecutionChain会在调用controller的前后添加一个或多个Inteceptor.
+
+4）Controller调用业务逻辑处理后，返回ModelAndView
+DispatcherServlet查询一个或多个ViewResoler视图解析器，找到ModelAndView指定的视图
+
+5）视图负责将结果显示到客户端
+
+
+注意如果使用@ResponseBody返回响应，还会走AbstractHttpMessageConverter的流程，这时，返回的ModelAndView为null，不会再走之后的View流程了
+
+---
