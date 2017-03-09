@@ -1,3 +1,10 @@
+---
+search:
+    keywords: ['spring','声明周期']
+
+---
+
+
 # spring 声明周期方法
 1. 请描述spring中 lazy-init属性的作用和优缺点 
 2. 描述init-method 和destroy-method的作用
