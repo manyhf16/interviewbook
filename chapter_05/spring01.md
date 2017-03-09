@@ -15,13 +15,6 @@ search:
 
 
 
-
-
-5. 
-
-6. spring 的scope
-
-
 # 参考解答
 spring 有两大核心思想：控制反转（IOC）和面向切面编程（AOP）
 
@@ -41,11 +34,6 @@ DI即Dependency Injection，是对IOC概念的一个补充。
 
 ## 小结
 正是因为控制反转和依赖注入的存在，使得spring可以和绝大多数开源框架整合。
-
-
-# spring 的scope
-通过`<bean scope="singleton|prototype">`
-来控制bean的单例还是多例，singleton表示bean是单例的，prototype表示bean是多例的
 
 # AOP
 aop即面向切面编程，将事务、权限检查、日志等关注点（通知）提取出来，与正常的业务逻辑分离开，这样利于代码的重用和解耦。在运行时，通过代理模式再将这些关注点与正常业务结合在一起，仍然达到分离前相同的功能。
