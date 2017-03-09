@@ -10,48 +10,19 @@ search:
 
 1. Configuration接口：用于读取hibernate配置，根据配置信息创建SessionFactory对象； 
 
-2. SessionFactory接口：一个SessionFactory实例对应一个数据存储源，应用从SessionFactory中获得Session实例。SessionFactory有以下特点：
+2. SessionFactory接口：一个SessionFactory实例对应一个数据源，应用从SessionFactory中获得Session实例。SessionFactory有以下特点：
   * 它是线程安全的，这意味着它的同一个实例可以被应用的多个线程共享。
   * 它是重量级的，这意味着不能随意创建或销毁它的实例。如果应用只访问一个数据库，只需要创建一个SessionFactory实例，在应用初始化的时候创建该实例。如果应用同时访问多个数据库，则需要为每个数据库创建一个单独的SessionFactory实例。
 
+3. Session接口：Session接口是Hibernate应用使用最广泛的接口。Session也被称为持久化管理器，它提供了和持久化相关的操作，如添加、更新、删除、加载和查询对象。Session有以下特点：
+  * 不是线程安全的，因此在设计软件架构时，应该避免多个线程共享同一个Session实例。
+  * Session实例是轻量级的，所谓轻量级，是指它的创建和销毁不需要消耗太多的资源。这意味着在程序中可以经常创建和销毁Session对象，例如为每个客户请示分配单独的Session实例，或者为每个工作单元分配单独的Session实例。
+  * Session有一个缓存，被称为Hibernate的第一级缓存，它存放被当前工作单元加载的对象。每个Session实例都有自己的缓存，这个Sesion实例的缓存只能被当前工作单元访问。
 
-3)Session接口：负责保存、更新、删除、加载和查询对象，是线程不安全的，避免多个线程共享同一个session，是轻量级、一级缓存；
+4. Transaction接口：管理事务
 
-4)Transaction接口：管理事务； 
-
-5)Query和Criteria接口：执行数据库的查询。
-
-
-
-2.SessionFactory接口
-　　一个SessionFactory实例对应一个数据存储源，应用从SessionFactory中获得Session实例。SessionFactory有以下特点：
-　　它是线程安全的，这意味着它的同一个实例可以被应用的多个线程共享。
-　　它是重量级的，这意味着不能随意创建或销毁它的实例。如果应用只访问一个数据库，只需要创建一个SessionFactory实例，在应用初始化的时候创建该实例。如果应用同时访问多个数据库，则需要为每个数据库创建一个单独的SessionFactory实例。
-　　之所以称SessionFactory是重量级的，是因为它需要一个很大的缓存，用来存放预定义的SQL语句以能映射元数据等。用户还可以为SesionFactory配置一个缓存插件，这个缓存插件被称为Hibernate的第二级缓存。，该缓存用来存放被工作单元读过的数据，将来其他工作单元可能会重用这些数据，因此这个缓存中的数据能够被所有工作单元共享。一个工作单元通常对应一个数据库事务。
-
-
-3.Session接口
-　　Session接口是Hibernate应用使用最广泛的接口。Session也被称为持久化管理器，它提供了和持久化相关的操作，如添加、更新、删除、加载和查询对象。
-　　Session有以下特点：
-　　不是线程安全的，因此在设计软件架构时，应该避免多个线程共享同一个Session实例。
-　　Session实例是轻量级的，所谓轻量级，是指它的创建和销毁不需要消耗太多的资源。这意味着在程序中可以经常创建和销毁Session对象，例如为每个客户请示分配单独的Session实例，或者为每个工作单元分配单独的Session实例。
-　　Session有一个缓存，被称为Hibernate的第一级缓存，它存放被当前工作单元加载的对象。每个Session实例都有自己的缓存，这个Sesion实例的缓存只能被当前工作单元访问。
-
-
-　　4.Transaction接口
-　　Transaction接口是Hibernate的数据库事务接口，它对底层的事务接口做了封装，底层事务接口包括：
-　　JDBC API、JTA（Java Transaction API）、CORBA（Common Object Requet Broker Architecture）API
-　　Hibernate应用可通过一致的Transaction接口来声明事务边界，这有助于应用在不同的环境容器中移植。尽管应用也可以绕过Transaction接口，直接访问底层的事务接口，这种方法不值得推荐，因为它不利于应用在不同的环境移植。
-
-
-　　5.Query和Criteria接口
-　　Query和Criteria接口是Hibernate的查询接口，用于向数据库查询对象，以及控制执行查询的过程。Query实例包装了一个HQL查询语句，HQL查询语句和SQL查询语句有些相似，但HQL查询语句是面向对象的，它引用类句及类的属性句，而不是表句及表的字段句。Criteria接口完全封装了基于字符串的查询语句，比Query接口更加面向对象，Criteria接口擅长执行动态查询。
-　　Session接口的find（）方法也具有数据查询功能，但它只是执行一些简单的HQL查询语句的快捷方法，它的功能远没有Query接口强大。
-
-备注：
-Criteria接口的特性：
-1、将数据查询条件封装为一个对象，并且可以方便地进行查询条件的组装
-2、在criteria接口中操作的都是方法，对比hql，不需要拼接字符串。
+5. Query和Criteria接口：执行数据库的查询。
+Query和Criteria接口是Hibernate的查询接口，用于向数据库查询对象，以及控制执行查询的过程。Query实例包装了一个HQL查询语句，HQL查询语句和SQL查询语句有些相似，但HQL查询语句是面向对象的，它引用类句及类的属性句，而不是表句及表的字段句。Criteria接口则更彻底地实现了面向对象查询，将数据查询条件封装为一个对象，Criteria接口擅长执行动态查询（多条件组合）。
 
 
 ---
