@@ -43,14 +43,6 @@ DI即Dependency Injection，是对IOC概念的一个补充。
 正是因为控制反转和依赖注入的存在，使得spring可以和绝大多数开源框架整合。
 
 
-
-
-# spring 依赖注入的方式
-* spring中依赖注入主要方式有set注入和构造注入。
-* 另外还可以通过@Autowired @Resource @Value 进行注入，它们可以分别用于set方法注入、构造方法注入和field属性注入。
-* 最后，spring中的DefaultListableBeanFactory提供了容器外的bean属性的织入
-
-
 # spring 的scope
 通过`<bean scope="singleton|prototype">`
 来控制bean的单例还是多例，singleton表示bean是单例的，prototype表示bean是多例的
