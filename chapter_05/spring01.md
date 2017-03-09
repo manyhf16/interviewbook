@@ -45,9 +45,14 @@ spring中的容器类型有两种：BeanFactory和ApplicationContext
  * ApplicationContext继承了MessageSource来承诺实现资源文件管理和国际化
  * ApplicationContext继承了ApplicationEventPublisher来承诺实现事件推送编程
  * ApplicatonContext继承了ResourcePatternResolver来处理Spring中的Resource资源
+ 
+* ApplicationContext和BeanFactory的关系是组合而非继承。
 
-> 值得一提的是：BeanFactory的另一个重要子接口
-ConfigurableListableBeanFactory承诺实现容器外的bean的属性织入，并具备添加BeanPostProcessor等功能
+# Spring 依赖注入的类型
+spring中依赖注入分为set注入和构造注入。另外还可以通过@Autowired @Resource @Value 进行注入，它们可以分别用于set方法注入、构造方法注入和field属性注入。
+
+# AOP
+aop即面向切面编程，将事务、权限检查、日志等关注点（通知）提取出来，与正常的业务逻辑分离开，这样利于代码的重用和解耦。在运行时，通过代理模式再将这些关注点与正常业务结合在一起，仍然达到分离前相同的功能。
 
 
 ---
