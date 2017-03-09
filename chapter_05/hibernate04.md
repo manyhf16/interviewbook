@@ -1,15 +1,19 @@
-# 关键字
+---
+search:
+    keywords: ['hibernate','核心接口']
 
-\[hibernate\]
+---
 
-# 关于hibernate: 【基础】
-  ## 1）在hibernate中，在配置文件呈标题一对多，多对多的标签是什么； 
-  ## 2）Hibernate的二级缓存是什么； 
-  ## 3）Hibernate是如何处理事务的；
+
+
+# 关于hibernate:
+1. 在hibernate中，在配置文件中一对多，多对多的标签是什么； 
+2. Hibernate的二级缓存是什么； 
+3. Hibernate是如何处理事务的；
 
 # 参考解答：
 
- 1）一对多的标签为<one-to-many> ；多对多的标签为<many-to-many>；
+ 1）一对多的标签为`<one-to-many>` ；多对多的标签为`<many-to-many>`；
   
  2）sessionFactory的缓存为hibernate的二级缓存；
  
