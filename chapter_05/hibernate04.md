@@ -15,7 +15,7 @@ search:
   
  2）hibernate中的二级缓存是为了进一步提高查询效率，而增加的缓存。它会采用第三方的缓存实现。二级缓存中的对象可以在多个session中被共享，它的生命周期与sessionFactory相同。
  
- 3）Hibernate的事务默认情况下封装了JDBC Transaction。
+ 3）Hibernate的事务默认是封装了JDBC Transaction。
  
 
 ---
