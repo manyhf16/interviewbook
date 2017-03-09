@@ -1,3 +1,10 @@
+---
+search:
+    keywords: ['hibernate','使用步骤']
+
+---
+
+
 # Hibernate的使用步骤？
 
 # 参考解答：
