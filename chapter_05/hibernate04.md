@@ -1,6 +1,6 @@
 ---
 search:
-    keywords: ['hibernate','二级缓存','onetomany','manaytomany']
+    keywords: ['hibernate','二级缓存','onetomany','manyytomany']
 
 ---
 
