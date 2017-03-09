@@ -1,6 +1,6 @@
 ---
 search:
-    keywords: ['hibernate','核心接口']
+    keywords: ['hibernate','二级缓存','onetomany','manaytomany']
 
 ---
 
