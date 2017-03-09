@@ -17,7 +17,7 @@ search:
 
 
 
-5. spring中依赖注入的方式
+5. 
 
 6. spring 的scope
 
