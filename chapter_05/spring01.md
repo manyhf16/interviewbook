@@ -15,7 +15,7 @@ search:
 
 
 
-4. spring中循环注入
+
 
 5. spring中依赖注入的方式
 
@@ -50,11 +50,6 @@ DI即Dependency Injection，是对IOC概念的一个补充。
 * 另外还可以通过@Autowired @Resource @Value 进行注入，它们可以分别用于set方法注入、构造方法注入和field属性注入。
 * 最后，spring中的DefaultListableBeanFactory提供了容器外的bean属性的织入
 
-# spring 循环注入
-如果出现如下情况:
-类A的构造中引用了类B，而类B的构造中引用了类A，这时候是会出现无限循环的情况，Spring初始化容器会抛异常。
-
-解决方法是将构造注入改造为set方法注入，spring会尽可能晚地处理set依赖关系，换句话说，spring会先构造bean的实例，再进行依赖注入，最后调用生命周期相关方法。
 
 # spring 的scope
 通过`<bean scope="singleton|prototype">`
