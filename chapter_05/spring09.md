@@ -1,3 +1,12 @@
+---
+search:
+    keywords: ['spring','依赖注入','di']
+
+---
+
+
+
+
 # spring中依赖注入的方式？
 
 # 参考解答
