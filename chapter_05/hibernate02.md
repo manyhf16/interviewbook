@@ -25,14 +25,14 @@ ORM 即 Object/Relational Mapping，意思是在java对象与数据库记录之�
   <property name="password" column="password"/>
 </class>
 ```
-hibernate 会根据此映射文件预先生成如下SQL语句：
+hibernate 会根据此映射文件预先生成如下SQL语句（程序员不用写）：
 ```sql
 insert into h_user (id,username,password) values(?,?,?)
 update h_user set username=?, password=? where id = ?
 delete from h_user where id = ?
 select id, username, password from h_user where id = ?
 ```
-当执行 `session.save(user)` 时，会执行如下的等价jdbc代码：
+当执行 `session.save(user)` 时，会执行如下的等价jdbc代码（程序员不用写）：
 ```java
 PreparedStatement ps = conn.preparedStatement("insert into h_user (id,username,password) values(?,?,?)");
 ps.setInt(1, user.getId());
