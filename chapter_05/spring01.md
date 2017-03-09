@@ -19,6 +19,8 @@ search:
 
 5. spring中依赖注入的方式
 
+6. spring 的scope
+
 
 # 参考解答
 spring 有两大核心思想：控制反转（IOC）和面向切面编程（AOP）
@@ -60,6 +62,10 @@ spring中依赖注入分为set注入和构造注入。另外还可以通过@Auto
 类A的构造中引用了类B，而类B的构造中引用了类A，这时候是会出现无限循环的情况，Spring初始化容器会抛异常。
 
 解决方法是将构造注入改造为set方法注入，spring会尽可能晚地处理set依赖关系，换句话说，spring会先构造bean的实例，再进行依赖注入，最后调用生命周期相关方法。
+
+# Sprint 的scope
+通过`<bean scope="singleton|prototype">`
+来控制bean的单例还是多例，singleton表示bean是单例的，prototype表示bean是多例的
 
 # AOP
 aop即面向切面编程，将事务、权限检查、日志等关注点（通知）提取出来，与正常的业务逻辑分离开，这样利于代码的重用和解耦。在运行时，通过代理模式再将这些关注点与正常业务结合在一起，仍然达到分离前相同的功能。
