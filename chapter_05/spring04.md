@@ -41,4 +41,52 @@ spring中的事务管理分为声明式和编程式两种。以声明式事务�
 
 spring事务管理的优点是将事务关注点提取出来，与正常的业务逻辑分离开，这样业务代码变得清晰易读，减少了代码的重复。
 
+## 附录，声明式事务管理配置样例
+
+### 1. xml 方式（以hibernate为例）
+```xml
+<!-- 事务管理器 -->
+<bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+  <property name="sessionFactory" ref="sessionFactory"></property>
+</bean>
+	
+<!-- 事务通知 方式1：-->
+<bean id="txAdvice" class="org.springframework.transaction.interceptor.TransactionInterceptor">
+  <property name="transactionManager" ref="transactionManager"/>
+  <property name="transactionAttributes">
+    <props>
+      <prop key="save">PROPAGATION_REQUIRED</prop>
+      <prop key="update">PROPAGATION_REQUIRED</prop>
+      <prop key="delete">PROPAGATION_REQUIRED</prop>
+      <prop key="find*">PROPAGATION_SUPPORTS</prop>
+    </props>
+  </property>
+</bean>
+
+<!-- 事务通知 方式2： 默认就会找一个id="transactionManager"的事务管理器-->
+<tx:advice id="txAdvice" >
+  <tx:attributes>
+    <tx:method name="save" propagation="REQUIRED" />
+    <tx:method name="update" propagation="REQUIRED"/>
+    <tx:method name="delete" propagation="REQUIRED"/>
+    <tx:method name="find*" propagation="SUPPORTS"/>
+  </tx:attributes>
+</tx:advice>
+
+<!-- 事务切面 -->
+<aop:config>
+  <aop:pointcut expression="within(com.xx.service..*)" id="txPointcut"/>
+  <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
+</aop:config>
+```
+
+### 2. 注解方式
+```xml
+<!-- 事务管理器 -->
+<bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+  <property name="sessionFactory" ref="sessionFactory"/>
+</bean>
+<!-- 让事务注解生效 -->
+<tx:annotation-driven/>
+```
 ---
