@@ -11,6 +11,8 @@ search:
 
 1. 你知道IOC(Inversion of Control)吗? IOC有哪几种类型? 使用IOC有哪些好处? 现在有哪些比较流行的IoC容器?
 
+2. 简述面向切面编程AOP的好处？spring中常见的基础切面有哪些？切面的实现原理是什么？
+
 
 # 参考解答
 spring 有两大核心思想：控制反转（IOC）和面向切面编程（AOP）
