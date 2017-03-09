@@ -42,7 +42,7 @@ DI即Dependency Injection，是对IOC概念的一个补充。
 ## 小结
 正是因为控制反转和依赖注入的存在，使得spring可以和绝大多数开源框架整合。
 
-## Spring IOC 容器的类型
+## spring IOC 容器的类型
 spring中的容器类型有两种：BeanFactory和ApplicationContext
 
 * BeanFactory接口定义了Spring最基本的bean实例化和依赖注入功能，它根据bean定义(bean definition)来创建bean实例。
@@ -54,18 +54,18 @@ spring中的容器类型有两种：BeanFactory和ApplicationContext
  
 * ApplicationContext和BeanFactory的关系是组合而非继承。
 
-# Spring 依赖注入的方式
+# spring 依赖注入的方式
 * spring中依赖注入主要方式有set注入和构造注入。
 * 另外还可以通过@Autowired @Resource @Value 进行注入，它们可以分别用于set方法注入、构造方法注入和field属性注入。
 * 最后，spring中的DefaultListableBeanFactory提供了容器外的bean属性的织入
 
-# Spring 循环注入
+# spring 循环注入
 如果出现如下情况:
 类A的构造中引用了类B，而类B的构造中引用了类A，这时候是会出现无限循环的情况，Spring初始化容器会抛异常。
 
 解决方法是将构造注入改造为set方法注入，spring会尽可能晚地处理set依赖关系，换句话说，spring会先构造bean的实例，再进行依赖注入，最后调用生命周期相关方法。
 
-# Spring 的scope
+# spring 的scope
 通过`<bean scope="singleton|prototype">`
 来控制bean的单例还是多例，singleton表示bean是单例的，prototype表示bean是多例的
 
