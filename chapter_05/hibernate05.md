@@ -6,7 +6,7 @@
 ```java
 SessionFactory sessionFactory = new Configuration().configure(). buildSessionFactory(); 
 ```
-2. 然后获得session的对象 
+2. 然后获得Session的对象 
 ```java
 Session session = sessionFactory.openSession();
 ```
