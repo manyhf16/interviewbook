@@ -42,18 +42,8 @@ DI即Dependency Injection，是对IOC概念的一个补充。
 ## 小结
 正是因为控制反转和依赖注入的存在，使得spring可以和绝大多数开源框架整合。
 
-## spring IOC 容器的类型
-spring中的容器类型有两种：BeanFactory和ApplicationContext
 
-* BeanFactory接口定义了Spring最基本的bean实例化和依赖注入功能，它根据bean定义(bean definition)来创建bean实例。
 
-* ApplicationContext对BeanFactory的功能做了扩展：
- * ApplicationContext继承了MessageSource来承诺实现资源文件管理和国际化
- * ApplicationContext继承了ApplicationEventPublisher来承诺实现事件推送编程
- * ApplicatonContext继承了ResourcePatternResolver来处理Spring中的Resource资源
- * ApplicationContext提供了bean的`后处理`扩展
- 
-* ApplicationContext和BeanFactory的关系是组合而非继承。
 
 # spring 依赖注入的方式
 * spring中依赖注入主要方式有set注入和构造注入。
