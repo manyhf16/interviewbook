@@ -1,3 +1,11 @@
+---
+search:
+    keywords: ['spring','依赖注入','di']
+
+---
+
+
+
 # spring中循环注入？
 
 # 参考解答
