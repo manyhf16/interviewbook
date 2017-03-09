@@ -13,6 +13,9 @@ hibernate 是一个数据持久层框架，它封装了jdbc，简化了对数据
 hibernate的工作原理从下面几个点来理解：
 
 ## 它是一个ORM框架
+ORM 即 Object/Relational Mapping，意思是在java对象与数据库记录之间建立映射关系，依据映射关系生成增删改查SQL语句，从而减少程序员的工作量。
+
+
 
 ## 实体类的三种状态
 
