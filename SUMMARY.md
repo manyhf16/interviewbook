@@ -173,7 +173,6 @@
   * [0169](chapter_01/0169.md)
   * [0170](chapter_01/0170.md)
   * [0174](chapter_01/0174.md)
-  * [0179](chapter_01/0179.md)
   * [0189](chapter_01/0189.md)
   * [0201](chapter_01/0201.md)
   * [0202](chapter_01/0202.md)
