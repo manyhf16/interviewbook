@@ -14,7 +14,7 @@
 |-----|:-----:|
 |spring-core |spring核心包，包括各项基础功能：反射，IO，注解处理，XML处理等工具类，并集成了cglib和objenesis(反射创建实例用) 
 |spring-beans |对spring中bean定义的抽象，用来管理bean的各个方面：创建、bean工厂、类型转换、各种依赖注入
-|spring-context <br>spring-context-support |spring容器的核心实现，另外包括缓存管理、远程访问、<br>任务调度、spring脚本、数据校验等功能
+|spring-context <br>spring-context-support |spring容器的核心实现，另外包括缓存管理、远程访问、任务调度、spring脚本、数据校验等功能
 |spring-expression |springel的实现，包括语法分析器等
 |spring-aop |Aop的核心实现
 |spring-jdbc |spring对jdbc和数据源的封装，提供了统一的Dao异常处理
