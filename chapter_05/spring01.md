@@ -30,7 +30,7 @@ IOC即控制反转，是指将java bean的创建、生命周期、依赖关系�
 
 在没有使用IOC思想之前，需要程序员主动去创建bean，维护其是否单例，生命周期等等，这样做的缺点是，对象的创建与对象的使用相耦合，对象与对象之间的关系紧耦合，不利于程序的扩展，经常会牵一发而动全身：某个对象发生了修改，使用这个对象的所有代码都需要跟着修改。
 
-IOC的思想是将刚才提到的创建bean，bean实例个数和声明周期的控制，都交给容器来管理。相当于将bean的控制权移交给了容器，因此被称为控制反转。控制反转的好处是，bean的创建和声明周期均可通过容器配合配置文件的方式来管理，降低了耦合。
+IOC的思想是将刚才提到的创建bean，bean实例个数和生命周期的控制，都交给容器来管理。相当于将bean的控制权移交给了容器，因此被称为控制反转。控制反转的好处是，bean的创建和生命周期均可通过容器配合配置文件的方式来管理，降低了耦合。
 
 ## DI
 DI即Dependency Injection，是对IOC概念的一个补充。
@@ -51,6 +51,7 @@ spring中的容器类型有两种：BeanFactory和ApplicationContext
  * ApplicationContext继承了MessageSource来承诺实现资源文件管理和国际化
  * ApplicationContext继承了ApplicationEventPublisher来承诺实现事件推送编程
  * ApplicatonContext继承了ResourcePatternResolver来处理Spring中的Resource资源
+ * ApplicationContext提供了bean的`后处理`扩展
  
 * ApplicationContext和BeanFactory的关系是组合而非继承。
 
@@ -77,7 +78,7 @@ spring自带的切面有缓存切面、事务切面。spring-security中还提�
 
 # 切面的实现原理是什么？
 spring的AOP 是利用了代理模式，在运行时生成一个目标对象的代理，并且使用代理代替目标对象，代理对象类型是目标对象类型的子类或者与目标对象实现了相同的接口。
-spring中支持两种代理技术：JDK动态代理和CGLIB。（当目标实现了接口时，使用JDK动态代理，否则使用CGLIB实现代理）
+spring中支持两种代理技术：JDK动态代理和CGLIB。JDK只能针对接口生成代理，CGLIB既可以针对接口生成代理，也可以生成子类作为代理。默认情况下，spring会优先使用JDK动态代理，如果目标对象没有使用接口，则使用CGLIB实现代理。
 
 AOP的实现包含以下几个步骤：
 1. 根据配置或注解解析切面。
