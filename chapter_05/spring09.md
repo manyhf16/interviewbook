@@ -29,4 +29,37 @@ xml格式的值注入（也属于set注入和构造注入）：
 <property name="属性名" value="属性值"/>
 <constructor-arg index="构造方法参数下标" value="参数值"/>
 ```
+注解field属性注入：
+```java
+@Service
+public class MyService {
+  @Autowired
+  private MyDao mydao;
+}
+```
+注解set方法注入：
+```java
+@Service
+public class MyService {
+  private MyDao mydao;
+  @Autowired
+  public void setMyDao(MyDao mydao) {
+    this.mydao = mydao;
+  }
+}
+```
+注解构造方法注入：
+```java
+@Service
+public class MyService {
+  private MyDao mydao;
+  @Autowired
+  public MyService(MyDao mydao) {
+    this.mydao = mydao;
+  }
+}
+```
+
+
+
 ---
