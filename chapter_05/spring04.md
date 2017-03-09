@@ -80,7 +80,7 @@ spring事务管理的优点是将事务关注点提取出来，与正常的业�
 </aop:config>
 ```
 
-### 2. 注解方式
+### 2. 注解方式（以hibernate为例）
 ```xml
 <!-- 事务管理器 -->
 <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
