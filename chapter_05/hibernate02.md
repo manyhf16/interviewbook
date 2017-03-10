@@ -43,7 +43,7 @@ ps.setString(3, user.getPassword());
 ps.executeUpdate();
 ```
 
-## 实体类的三种状态
+## 实体对象的三种状态
 
 ## 延迟加载实现
 
