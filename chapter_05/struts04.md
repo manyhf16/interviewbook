@@ -93,13 +93,4 @@ public class HelloAction extends ActionSupport{
 ```
 i18n拦截器在执行Action方法前，会自动查找请求中一个名为request_locale的参数，并转换成Locale对象，并将其设为用户默认的Locale（代表语言/国家环境）
 
-
-
-
-
-
- 
- 
- ---
- 
-
+---
