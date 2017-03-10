@@ -4,9 +4,9 @@ search:
 
 ---
 
-# Struts2和SpringMVC的区别？  
+# Struts2 vs SpringMVC？  
 
-# 参考解答：
+# 参考解答
 
 主要区别如下：
 1)Struts2中的Action用实例变量接收请求参数，为了保证请求参数的处理互不影响，就需    要每个请求创建一个新的Action对象；而SpringMVC的Controller使用方法参数对应请求参数，方法参数都是线程安全的，因此所有请求可以共用同一个Controller对象。
