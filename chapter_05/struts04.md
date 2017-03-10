@@ -10,7 +10,7 @@ search:
 
 Struts2 可以用来开发基于MVC的web应用程序。 Struts2有如下的主要功能：
 
- 1) 基于MVC(Model-View-Controller)设计模式，基于aop拦截器来处理用户请求，可以开发Action控制器来联系模型和视图的数据交互
+ 1) 基于MVC(Model-View-Controller)设计模式，基于aop拦截器来处理用户请求，使用Action控制器来联系模型和视图
   
  2) 提供了一套标签库，用来创建动态页面
  
