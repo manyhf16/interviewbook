@@ -7,6 +7,8 @@ search:
 # Struts2 vs SpringMVC？  
 
 # 参考解答
+它们的共同点是：
+都是流行的mvc框架，都能够简化和规范web应用程序的开发。
 
 主要区别如下：
 
