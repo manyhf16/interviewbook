@@ -4,7 +4,7 @@ search:
 
 ---
 
-# Hibernate分页怎样实现？【中等难度】  
+# Hibernate分页怎样实现？
 
 # 参考解答：
 
