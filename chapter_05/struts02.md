@@ -35,6 +35,6 @@ search:
 8、 一旦Action执行完毕，ActionInvocation负责根据struts.xml中的配置找到对应的返回结果。返回结果通常是（但不总是，也可 能是另外的一个Action链）一个需要被表示的JSP。
 
 > 注意
-早期版本的struts2 Filter类叫做Fil
+早期版本的struts2 Filter类叫做FilterDispatcher，已经过时，被StrutsPrepareAndExecuteFilter所取代。
 ---
 
