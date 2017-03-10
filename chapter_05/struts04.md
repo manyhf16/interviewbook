@@ -53,5 +53,5 @@ public class HelloAction{
 
 4. 根据action方法的返回值找到`<result>`标签，来确定要转发的视图是 list.jsp
 
-5. 在视图中可以使用 `<s:property value="name"/>` 来获取HelloAction中name属性值并显示。
+5. 在视图中可以使用 `<s:property value="name"/>` 来获取HelloAction中name属性值显示生成html。
 ---
