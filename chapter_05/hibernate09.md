@@ -1,3 +1,9 @@
+---
+search:
+    keywords: ['hibernate','@onetoone']
+
+---
+
 # hibernate中一对一关系有几种映射方式？
 
 
