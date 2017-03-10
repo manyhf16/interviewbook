@@ -370,6 +370,7 @@
     * [0003](chapter_05/lagacy/0003.md)
     * [0004](chapter_05/lagacy/0004.md)
     * [0005](chapter_05/lagacy/0005.md)
+    * [0006](chapter_05/lagacy/0006.md)
 * [操作系统](chapter_06/README.md)
   * [0001](chapter_06/0001.md)
   * [0002](chapter_06/0002.md)
