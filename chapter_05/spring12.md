@@ -17,7 +17,7 @@ SpringMVC的执行流程（ModelAndView）可以参考下图：![](/assets/2.png
 
 3. 处理适配器(HandlerAdapter)类的职责是调用控制器(Controller)中的方法来真正处理请求。
 
-4. 由处理适配器(HandlerAdapter)调用控制器(Controller)中的方法，在方法执行前后会调用多个拦截器中的前处理和后处理方法
+4. 由处理适配器(HandlerAdapter)调用控制器(Controller)中的方法，在控制器方法执行前后会调用多个拦截器中的前处理和后处理方法
 
 5. Controller方法执行后，结果会封装为ModelAndView对象。由 DispatcherServlet利用视图解析器(ViewResoler)生成视图(View)对象
 
