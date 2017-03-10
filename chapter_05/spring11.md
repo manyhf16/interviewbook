@@ -1,6 +1,6 @@
 ---
 search:
-    keywords: ['spring','声明周期','init','destroy','lazy']
+    keywords: ['spring','生命周期','init','destroy','lazy']
 
 ---
 
