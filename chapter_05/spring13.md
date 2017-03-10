@@ -19,6 +19,7 @@ search:
 4. Struts2中使用值栈作为传值容器，值栈分为Root和Context部分，其中Root是栈结构，Context是Map结构；而SpringMVC使用Model作为传值容器，Model就是一个Map结构。
 
 5. Struts2对一些标准的支持较为落后，而SpringMVC支持Servlet3.0及更新的规范，如WebSocket，AsyncServlet，CORS等。
-Struts2曾一度暴露安全漏洞，对其口碑影响较大。
+
+6. Struts2曾一度暴露安全漏洞，对其口碑影响较大。
 
 ---
