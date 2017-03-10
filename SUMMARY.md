@@ -313,6 +313,7 @@
   * [hibernate07](chapter_05/hibernate07.md)
   * [hibernate08](chapter_05/hibernate08.md)
   * [hibernate09](chapter_05/hibernate09.md)
+  * [hibernate10](chapter_05/hibernate10.md)
   * [struts01](chapter_05/struts01.md)
   * [struts02](chapter_05/struts02.md)
   * [struts03](chapter_05/struts03.md)
