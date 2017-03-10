@@ -34,6 +34,7 @@ Struts2 可以用来开发基于MVC的web应用程序。 Struts2有如下的主�
 其中`<action>`标签用来配置路径和java类的映射关系，`<result>`标签用来配置视图路径。
 
 2) aciton类可以是普通的java类或继承了ActionSupport的java类，例如：
+
 ```java
 public class HelloAction{
     private String name;
