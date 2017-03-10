@@ -36,5 +36,6 @@ search:
 
 > **注意**
 早期版本的struts2 Filter类叫做FilterDispatcher，已经过时，被StrutsPrepareAndExecuteFilter所取代。
+
 ---
 
