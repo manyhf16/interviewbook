@@ -36,17 +36,17 @@ Struts2 可以用来开发基于MVC的web应用程序。 Struts2有如下的主�
 2. aciton类可以是普通的java类或继承了ActionSupport的java类，例如：
 ```java
 public class HelloAction{
-  private String name;
-  public String getName(){
-    return this.name;
-  }
-  public void setName(String name) {
-    this.name = name;
-  }
-  public String execute(){
-    System.out.println("进入了HelloAction");
-    return "success";
-  }
+    private String name;
+    public String getName(){
+        return this.name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String execute(){
+      System.out.println("进入了HelloAction");
+      return "success";
+    }
 }
 ```
 3. 向该action的发送请求：/hello/helloworld.action?name=zhangsan，这时name参数会被struts赋值给HelloAction的name属性。
