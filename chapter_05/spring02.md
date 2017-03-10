@@ -37,7 +37,7 @@ spring官方提供的模块图：
 ![](/assets/3.png)
 
 ## spring vs springmvc
-spring是一个开源框架，使用容器的思想管理bean，利用ioc和aop思想来解耦应用程序，提高整个应用的健壮与扩展性，被用来整合其它框架。
+spring是一个开源框架，使用容器的思想管理bean，利用ioc和aop思想来解耦应用程序，提高整个应用的健壮与扩展性，常被用来整合其它框架。
 
 springmvc 是spring中的一个子项目，依托于spring其它核心模块，专注于解决web开发时的问题。它是一个mvc框架，主要通过控制器解耦模型和视图。
 
