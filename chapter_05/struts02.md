@@ -14,19 +14,13 @@ search:
 
 一个请求在Struts2框架中的处理大概分为以下几个步骤：
 
-1、 客户端发送请求；
-2、 这个请求经过一系列的过滤器（Filter）
-3、 接着StrutsPrepareAndExecuteFilter被调用，FilterDispatcher询问ActionMapper来决定这个请是否需要调用某个Action。FilterDispatcher的功能如下：
+1. 客户端发送请求。
+2. 这个请求经过一系列的其它过滤器（Filter），注意其它过滤器要放在struts2的过滤器之前，否则没有机会被执行。
+3. 接着StrutsPrepareAndExecuteFilter被调用，FilterDispatcher询问ActionMapper来决定这个请是否有某个Action能处理这次请求（路径匹配上了）。
 
-   (1)执行Actions
-   (2)清除ActionContext
-   (3)维护静态内容
-   (4)清除reques生命周期的XWork的interceptors
+4. 如果ActionMapper决定需要调用某个Action，FilterDispatcher把请求的处理交给ActionProxy（ActionProxy中包含了这次请求要执行哪个Action，执行的方法是哪个等信息）
 
-
-4、 如果ActionMapper决定需要调用某个Action，FilterDispatcher把请求的处理交给ActionProxy
-
-5、 ActionProxy通过Configuration Manager询问框架的配置文件，找到需要调用的Action类
+5. ActionProxy通过Configuration Manager询问框架的配置文件，找到需要调用的Action类
 
 6、 ActionProxy创建一个ActionInvocation的实例。
 
