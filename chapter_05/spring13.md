@@ -1,5 +1,10 @@
-# Struts2和SpringMVC的区别？  
+---
+search:
+    keywords: ['springmvc','原理','执行流程']
 
+---
+
+# Struts2和SpringMVC的区别？  
 
 # 参考解答：
 
