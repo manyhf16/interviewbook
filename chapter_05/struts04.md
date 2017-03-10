@@ -5,11 +5,11 @@ search:
 ---
 
 
-# Struts2的应用，它有哪些功能？
+# Struts2的应用，它的功能有哪些？ 使用步骤？
 
 # 参考解答：
 
-Struts2 可以用来开发 web应用程序。 Struts2有如下的主要功能：
+Struts2 可以用来开发基于MVC的web应用程序。 Struts2有如下的主要功能：
 
  1) 基于MVC(Model-View-Controller)设计模式，基于aop拦截器来处理用户请求，可以开发Action控制器来联系模型和视图的数据交互
   
