@@ -28,7 +28,7 @@ search:
 
 7. ActionInvocation真正创建Action，将Action对象压入值栈，调用调用各个拦截器以及Action
 
-8. Action或拦截器执行结束会返回一个视图名，ActionProxy会根据视图名找到Result对象并执行
+8. Action或拦截器执行结束会返回一个视图名，由ActionProxy根据视图名找到Result对象并执行
 
 9. Result执行会导致进入jsp，jsp中利用struts标签从值栈获取模型数据，渲染显示，生成最后的html
 
