@@ -318,7 +318,7 @@
   * [struts02](chapter_05/struts02.md)
   * [struts03](chapter_05/struts03.md)
   * [struts04](chapter_05/struts04.md)
-  * [other01](chapter_05/other01.md)
+  * [其它](chapter_05/other01.md)
   * [过气的框架](chapter_05/lagacy/README.md)
     * [0001](chapter_05/lagacy/0001.md)
     * [0002](chapter_05/lagacy/0002.md)
