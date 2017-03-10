@@ -14,7 +14,7 @@ search:
 
 2. Struts2中使用Filter来作为前控制器来作为请求的入口，SpringMVC中使用Servlet作为前控制器。Struts2的Filter过滤的是/*所有请求，优先级最高，比较“霸道”；SpringMVC的Servlet映射的路径是/，和其它Servlet是平级关系，其它Servlet的路径匹配不到才会进入SpringMVC的处理，相对“谦和”。
 
-3.如果返回jsp视图，Struts2中的拦截器是包围在action+jsp前后，SpringMVC中的拦截器是包围在controller前后。
+3. 如果返回jsp视图，Struts2中的拦截器是包围在action+jsp前后，SpringMVC中的拦截器是包围在controller前后。
 
 4. Struts2中视图渲染使用值栈作为传值容器，值栈分为Root和Context部分，其中Root是栈结构，Context是Map结构；而SpringMVC使用Model作为传值容器，Model就是一个Map结构。
 
