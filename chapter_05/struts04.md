@@ -49,7 +49,7 @@ public class HelloAction{
     }
 }
 ```
-3. 向该action的发送请求：/hello/helloworld.action?name=zhangsan，这时name参数会被struts赋值给HelloAction的name属性。
+3. 向该action的发送请求：`/hello/helloworld.action?name=zhangsan`，这时name参数会被struts赋值给HelloAction的name属性。
 
 4. 根据action方法的返回值找到`<result>`标签，来确定要转发的视图是 list.jsp
 
