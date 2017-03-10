@@ -21,4 +21,4 @@ search:
 5)Struts2对一些标准的支持较为落后，而SpringMVC支持Servlet3.0及更新的规范，如WebSocket，AsyncServlet，CORS等。
 Struts2曾一度暴露安全漏洞，对其口碑影响较大。
 
-详细解释：
+---
