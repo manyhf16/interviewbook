@@ -4,7 +4,6 @@ search:
 
 ---
 
-
 # Struts2的应用，它的功能有哪些？ 使用步骤？
 
 # 参考解答：
@@ -20,77 +19,40 @@ Struts2 可以用来开发基于MVC的web应用程序。 Struts2有如下的主�
  4) 提供web应用程序开发时所需要的通用功能，例如：表单重复提交、国际化支持等
  
  
- 详细解释：
+ ## 使用步骤：
  
- 1、struts.xml中的配置：
-
+1. 首先在struts.xml中配置一个action：
 ```xml
- <struts>
-     <package name="test" namespace="/hello" extends="struts-default">
-     <action name="helloworld"  class="com.xx.action.HelloAction" method="abc">
-         <result name="success">/WEB-INF/list.jsp</result>
-     </action>
-     </package>
- </struts>
+<struts>
+  <package name="test" namespace="/hello" extends="struts-default">
+    <action name="helloworld"  class="com.xx.action.HelloAction" method="execute">
+      <result name="success">/WEB-INF/list.jsp</result>
+    </action>
+  </package>
+</struts>
 ```
-1、标签介绍：
+其中`<action>`标签用来配置路径和java类的映射关系，`<result>`标签用来配置视图路径。
 
-package标签中的属性：
+2. aciton类可以是普通的java类或继承了ActionSupport的java类，例如：
 
-name：用来指定包名，必须是唯一的
-namespace：用来定义包的命名空间，命名空间会作为访问该包下action路径的一部分
-extends：用来定义该包的继承包，一般都继承struts-default包（该包定义了struts的核心功能，比如拦截器）
-
-action标签中的属性：
-
-name：用来指定action的名称，它与package的namespace共同组成访问某个action的路径。比如本例访问helloworld这个action的完整路径为：http://localhost:9090/helloworld/hello/helloworld.action
-(其中.action可以省略)
-class：用来指定action所对应的处理类，需要写类的全路径名
-method：用来指定处理器类中的哪个方法执行该action操作。
- 备注：action标签中的class属性和method属性可以缺省，缺省后默认状态下执行struts2中的ActionSupport类中的execute()方法。如果只缺省method就执行指定类的execute()方法。
- 
-result 标签用来指定action执行完需要跳转的视图。
-
-
-struts 2 中的处理类可以是普通的java类和继承了ActionSupport的java类。范例：
-
-
-
-```
-// 例1
+```java
 public class HelloAction{
-	public String abc(){
-		System.out.println("进入了HelloAction的abc()方法");
-		return "success";
-	}
+  public String execute(){
+    System.out.println("进入了HelloAction的abc()方法");
+    return "success";
+  }
 }
 ```
+或
 
-
-
-
-
-```
-// 例2
+```java
 public class HelloAction extends ActionSupport{
-	public String abc(){
-		System.out.println("进入了HelloAction的abc()方法");
-		return "success";
-	}
+  public String execute(){
+    System.out.println("进入了HelloAction的abc()方法");
+    return "success";
+  }
 }
 ```
 
-2、struts标签库：
-![](/assets/10.jpg)
-
-
-
-3、
-
-在struts.xml中配置国际化拦截器：i18n
-```
-<interceptor-ref name="i18n"/>
-```
-i18n拦截器在执行Action方法前，会自动查找请求中一个名为request_locale的参数，并转换成Locale对象，并将其设为用户默认的Locale（代表语言/国家环境）
 
 ---
