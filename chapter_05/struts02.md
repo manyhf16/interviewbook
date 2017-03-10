@@ -6,7 +6,7 @@ search:
 
 
 
-# 1.Struts2的执行流程 
+# Struts2的执行流程 
 
 
 # 参考解答：
