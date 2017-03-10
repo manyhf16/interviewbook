@@ -1,6 +1,6 @@
 ---
 search:
-    keywords: ['struts2']
+    keywords: ['struts2','使用步骤']
 
 ---
 
