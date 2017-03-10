@@ -16,7 +16,7 @@ search:
 
 1、 客户端发送请求；
 2、 这个请求经过一系列的过滤器（Filter）
-3、 接着FilterDispatcher被调用，FilterDispatcher询问ActionMapper来决定这个请是否需要调用某个Action。FilterDispatcher的功能如下：
+3、 接着StrutsPrepareAndExecuteFilter被调用，FilterDispatcher询问ActionMapper来决定这个请是否需要调用某个Action。FilterDispatcher的功能如下：
 
    (1)执行Actions
    (2)清除ActionContext
@@ -34,5 +34,7 @@ search:
 
 8、 一旦Action执行完毕，ActionInvocation负责根据struts.xml中的配置找到对应的返回结果。返回结果通常是（但不总是，也可 能是另外的一个Action链）一个需要被表示的JSP。
 
+> 注意
+早期版本的struts2 Filter类叫做Fil
 ---
 
