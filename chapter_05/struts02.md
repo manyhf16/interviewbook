@@ -14,19 +14,23 @@ search:
 
 一个请求在Struts2框架中的处理大概分为以下几个步骤：
 
-1. 客户端发送请求。
-2. 这个请求经过一系列的其它过滤器（Filter），注意其它过滤器要放在struts2的过滤器之前，否则没有机会被执行。
-3. 接着StrutsPrepareAndExecuteFilter被调用，FilterDispatcher询问ActionMapper来决定这个请是否有某个Action能处理这次请求（路径匹配上了）。
+1. 客户端发送请求
 
-4. 如果ActionMapper决定需要调用某个Action，FilterDispatcher把请求的处理交给ActionProxy（ActionProxy中包含了这次请求要执行哪个Action，执行的方法是哪个等信息）
+2. 这个请求经过一系列的其它过滤器（Filter），注意其它过滤器要放在struts2的过滤器之前，否则没有机会被执行
 
-5. ActionProxy通过Configuration Manager询问框架的配置文件，找到需要调用的Action类
+3. 接着StrutsPrepareAndExecuteFilter被调用，询问ActionMapper来决定是否有某个Action能处理这次请求（路径匹配上了）
 
-6、 ActionProxy创建一个ActionInvocation的实例。
+4. 如果ActionMapper决定需要调用某个Action，StrutsPrepareAndExecuteFilter把请求的处理交给ActionProxy
 
-7、 ActionInvocation实例使用命名模式来调用，在调用Action的过程前后，涉及到相关拦截器（Intercepter）的调用。
+5. ActionProxy通过访问配置文件，知道了这次请求要执行哪个Action的哪个方法
 
-8、 一旦Action执行完毕，ActionInvocation负责根据struts.xml中的配置找到对应的返回结果。返回结果通常是（但不总是，也可 能是另外的一个Action链）一个需要被表示的JSP。
+6. ActionProxy还会创建一个ActionInvocation的实例。
+
+7. ActionInvocation真正创建Action，将Action对象压入值栈，调用调用各个拦截器以及Action
+
+8. Action或拦截器执行结束会返回一个视图名，ActionProxy会根据视图名找到Result对象并执行，Result执行会导致jsp等视图被渲染，生成最后的html
+
+9. 返回响应给客户端
 
 > **注意**
 早期版本的struts2 Filter类叫做FilterDispatcher，已经过时，被StrutsPrepareAndExecuteFilter所取代。
