@@ -1,3 +1,10 @@
+---
+search:
+    keywords: ['hibernate','一级缓存','二级缓存']
+
+---
+
+
 # hibernate中的1级和2级缓存的使用方式以及区别原理
 
 
