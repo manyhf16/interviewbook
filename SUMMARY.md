@@ -151,8 +151,6 @@
   * [0147](chapter_01/0147.md)
   * [0148](chapter_01/0148.md)
   * [0149](chapter_01/0149.md)
-  * [0158](chapter_01/0158.md)
-  * [0166](chapter_01/0166.md)
 * [数据库](chapter_02/README.md)
   * [0001](chapter_02/0001.md)
   * [0002](chapter_02/0002.md)
