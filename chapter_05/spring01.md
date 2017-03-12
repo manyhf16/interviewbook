@@ -24,7 +24,7 @@ IOC即控制反转，是指将java bean的创建、生命周期、依赖关系�
 IOC的思想是将刚才提到的创建bean，bean实例个数和生命周期的控制，都交给容器来管理。相当于将bean的控制权移交给了容器，因此被称为控制反转。控制反转的好处是，bean的创建和生命周期均可通过容器配合配置文件的方式来管理，降低了耦合。
 
 ## DI
-DI即Dependency Injection，是对IOC概念的一个补充。
+DI即依赖注入(Dependency Injection)，是对IOC概念的一个补充。
 
 传统的web开发中也存在容器的概念，例如tomcat 容器控制servlet和jsp的创建以及生命周期。虽然web容器也存在控制反转的思想，但与之前提到的IOC容器不同的是，web容器没有管理对象之间的依赖关系。
 
