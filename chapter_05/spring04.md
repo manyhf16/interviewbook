@@ -32,7 +32,7 @@ spring中的事务管理分为声明式和编程式两种。以声明式事务�
 
 3. 为了让事务逻辑重用，不要影响正常业务代码，spring采用了aop思想，应用代理模式，为业务逻辑对象（目标）产生相应的代理对象，由代理对象协调调用事务通知和业务逻辑对象，将它俩结合起来。产生代理的技术spring用到了jdk动态代理或cglib
 
-4. spring提供了TransactionInterceptor类充当事务通知，它被代理对象所调用，并负责管理事务属性（具体到哪些方法需要事务，事务传播行为，隔离级别等），并由它再去调用PlatformTransactionManager 真正执行事务操作。
+4. spring提供了TransactionInterceptor类充当事务通知，它被代理对象所调用，并负责记录每个方法的事务属性（具体到哪些方法需要事务，事务传播行为，隔离级别等），并由它再去调用PlatformTransactionManager 真正执行事务操作。
 
 ## spring支持的事务管理类型
 分为声明式事务和编程式事务。声明式事务指利用`<tx:advice>`或@Transactional注解来标注需要事务控制的方法，而编程式事务是指利用TransactionTemplate 将多次方法调用纳入一个事务中。
