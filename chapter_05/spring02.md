@@ -28,7 +28,7 @@ search:
 |spring-jdbc |spring对jdbc和数据源的封装，提供了统一的dao异常处理|
 |spring-tx |提供事务管理器的抽象，事务通知的实现|
 |spring-orm |spring对orm框架如hibernate和jpa的封装|
-|spring-web |spring容器在web方向的扩展，提供了处理文件上传,json转换，参数绑定，http远程访问等功能|
+|spring-web |spring容器在web方向的扩展，提供了处理文件上传，json转换，参数绑定，http远程访问等功能|
 |spring-webmvc |mvc的实现，提供了路径映射，控制适配，拦截器，视图解析，视图|
 |spring-test |配合junit进行单元测试，一些mock对象的实现|
 |spring-data |专注于各种数据来源的整合，涵盖关系型数据库，NoSQL数据库，内存数据库，搜索引擎|
