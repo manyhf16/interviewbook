@@ -35,7 +35,7 @@ spring中的事务管理分为声明式和编程式两种。以声明式事务�
 4. spring提供了TransactionInterceptor类充当事务通知，它被代理对象所调用，并负责记录每个方法的事务属性（具体到哪些方法需要事务，事务传播行为，隔离级别等），并由它再去调用PlatformTransactionManager 真正执行事务操作。
 
 ## spring支持的事务管理类型
-分为声明式事务和编程式事务。声明式事务指利用`<tx:advice>`或@Transactional注解来标注需要事务控制的方法，而编程式事务是指利用TransactionTemplate 将多次方法调用纳入一个事务中。
+分为声明式事务和编程式事务。声明式事务指利用`<tx:advice>`或`@Transactional`注解来标注需要事务控制的方法，而编程式事务是指利用TransactionTemplate 将多次方法调用纳入一个事务中。
 
 显然声明式事务更好：它对应用代码的影响最小，因此更符合一个无侵入的轻量级容器的思想。
 
