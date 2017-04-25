@@ -32,7 +32,7 @@
   * [0028 \(静态变量、实例变量、局部变量的区别？\)](chapter_01/0028.md)
   * [0029 \(是否可以从一个 static 方法内部发出对非 static 方法的调用？\)](chapter_01/0029.md)
   * [0030 \(写 clone\(\) 方法时，通常都有一行代码，是什么？\)](chapter_01/0030.md)
-  * [0031 \(\`String s = new String\("xyz"\); 创建了几个String？\)](chapter_01/0031.md)
+  * [0031 \(String s = new String\("xyz"\); 创建了几个String？\)](chapter_01/0031.md)
   * [0032](chapter_01/0032.md)
   * [0033](chapter_01/0033.md)
   * [0034](chapter_01/0034.md)
