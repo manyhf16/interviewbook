@@ -28,7 +28,7 @@
   * [0024 \(abstract class 和 interface 有什么区别？\)](chapter_01/0024.md)
   * [0025 \(Static Nested Class 和 Inner Class 的不同？\)](chapter_01/0025.md)
   * [0026 \(集合框架相关问题\)](chapter_01/0026.md)
-  * [0027](chapter_01/0027.md)
+  * [0027 \(abstract 的 method 是否可同时是 static,是否可同时是 native，是否可同时是 synchronized？\)](chapter_01/0027.md)
   * [0028](chapter_01/0028.md)
   * [0029](chapter_01/0029.md)
   * [0030](chapter_01/0030.md)
