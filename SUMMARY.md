@@ -26,7 +26,7 @@
   * [0022 \(常见异常\)](chapter_01/0022.md)
   * [0023 \(char 型变量中能不能存贮一个中文汉字？为什么？\)](chapter_01/0023.md)
   * [0024 \(abstract class 和 interface 有什么区别？\)](chapter_01/0024.md)
-  * [0025](chapter_01/0025.md)
+  * [0025 \(Static Nested Class 和 Inner Class 的不同？\)](chapter_01/0025.md)
   * [0026](chapter_01/0026.md)
   * [0027](chapter_01/0027.md)
   * [0028](chapter_01/0028.md)
