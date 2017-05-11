@@ -34,7 +34,7 @@
   * [0030 \(写 clone\(\) 方法时，通常都有一行代码，是什么？\)](chapter_01/0030.md)
   * [0031 \(String s = new String\("xyz"\); 创建了几个String？\)](chapter_01/0031.md)
   * [0032 \(接口是否可继承接口? 抽象类是否可实现\(implements\)接口？抽象类是否可继承具体类\(concrete class\)？\)](chapter_01/0032.md)
-  * [0033](chapter_01/0033.md)
+  * [0033 \(一个java源文件中是否可以包含多个类？\)](chapter_01/0033.md)
   * [0034](chapter_01/0034.md)
   * [0035](chapter_01/0035.md)
   * [0036](chapter_01/0036.md)
