@@ -67,7 +67,7 @@
   * [0063 \(请说出Exception的传播机制？\)](chapter_01/0063.md)
   * [0064 \(短路运算\)](chapter_01/0064.md)
   * [0065 \(InputStream与Reader的区别？\)](chapter_01/0065.md)
-  * [0066](chapter_01/0066.md)
+  * [0066 \(请问你在什么情况下会在你的Java代码中使用可序列化？\)](chapter_01/0066.md)
   * [0067](chapter_01/0067.md)
   * [0068](chapter_01/0068.md)
   * [0069](chapter_01/0069.md)
