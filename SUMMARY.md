@@ -56,7 +56,7 @@
   * [0052 \(类 Example A 继承 Exception，类 ExampleB 继承 Example A\)](chapter_01/0052.md)
   * [0053 \(String类为什么是final的？\)](chapter_01/0053.md)
   * [0054 \(do...while 循环\)](chapter_01/0054.md)
-  * [0055](chapter_01/0055.md)
+  * [0055 \(Java的Object对象有哪些方法？\)](chapter_01/0055.md)
   * [0056](chapter_01/0056.md)
   * [0057](chapter_01/0057.md)
   * [0058](chapter_01/0058.md)
