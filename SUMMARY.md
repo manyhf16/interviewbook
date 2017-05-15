@@ -59,7 +59,7 @@
   * [0055 \(Java的Object对象有哪些方法？\)](chapter_01/0055.md)
   * [0056 \(Collections和Collection的区别？\)](chapter_01/0056.md)
   * [0057 \(类型转换问题\)](chapter_01/0057.md)
-  * [0058](chapter_01/0058.md)
+  * [0058 \(hashCode\(\)方法的作用？\)](chapter_01/0058.md)
   * [0059](chapter_01/0059.md)
   * [0060](chapter_01/0060.md)
   * [0061](chapter_01/0061.md)
