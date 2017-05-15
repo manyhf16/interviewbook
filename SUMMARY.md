@@ -85,7 +85,7 @@
   * [0081 \(不能用来修饰interface的修饰符有\)](chapter_01/0081.md)
   * [0082 \(若下面指定目录和文件名都存在，创建FileInputStream对象语句正确的是\)](chapter_01/0082.md)
   * [0083 \(类的实例方法表示什么\)](chapter_01/0083.md)
-  * [0084](chapter_01/0084.md)
+  * [0084 \(finally问题\)](chapter_01/0084.md)
   * [0085](chapter_01/0085.md)
   * [0086](chapter_01/0086.md)
   * [0087](chapter_01/0087.md)
