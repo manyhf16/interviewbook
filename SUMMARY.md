@@ -64,7 +64,7 @@
   * [0060 \(继承层级结构层次，checked,unchecked？\)](chapter_01/0060.md)
   * [0061 \(对象要实现排序,需要实现什么接口？\)](chapter_01/0061.md)
   * [0062 \(整数除法和浮点数除法\)](chapter_01/0062.md)
-  * [0063](chapter_01/0063.md)
+  * [0063 \(请说出Exception的传播机制？\)](chapter_01/0063.md)
   * [0064](chapter_01/0064.md)
   * [0065](chapter_01/0065.md)
   * [0066](chapter_01/0066.md)
