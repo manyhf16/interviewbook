@@ -61,7 +61,7 @@
   * [0057 \(类型转换问题\)](chapter_01/0057.md)
   * [0058 \(hashCode\(\)方法的作用？\)](chapter_01/0058.md)
   * [0059 \(HashMap的源码，实现原理，底层结构？\)](chapter_01/0059.md)
-  * [0060](chapter_01/0060.md)
+  * [0060 \(继承层级结构层次，checked,unchecked？\)](chapter_01/0060.md)
   * [0061](chapter_01/0061.md)
   * [0062](chapter_01/0062.md)
   * [0063](chapter_01/0063.md)
