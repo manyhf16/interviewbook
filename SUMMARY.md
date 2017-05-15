@@ -83,7 +83,7 @@
   * [0079 \(final类中的属性和方法都必须被final修饰符修饰，这句话是否正确？\)](chapter_01/0079.md)
   * [0080 \(IO流问题\)](chapter_01/0080.md)
   * [0081 \(不能用来修饰interface的修饰符有\)](chapter_01/0081.md)
-  * [0082](chapter_01/0082.md)
+  * [0082 \(若下面指定目录和文件名都存在，创建FileInputStream对象语句正确的是\)](chapter_01/0082.md)
   * [0083](chapter_01/0083.md)
   * [0084](chapter_01/0084.md)
   * [0085](chapter_01/0085.md)
