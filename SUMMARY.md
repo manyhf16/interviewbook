@@ -52,7 +52,7 @@
   * [0048 \(finally 和 return 的问题？\)](chapter_01/0048.md)
   * [0049 \(Java语言如何进行异常处理？\)](chapter_01/0049.md)
   * [0050 \(关于异常说法正确的是？\)](chapter_01/0050.md)
-  * [0051](chapter_01/0051.md)
+  * [0051 \(final, finally, finalize 的区别？\)](chapter_01/0051.md)
   * [0052](chapter_01/0052.md)
   * [0053](chapter_01/0053.md)
   * [0054](chapter_01/0054.md)
