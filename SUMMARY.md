@@ -126,7 +126,7 @@
   * [0122 \(abstract问题\)](chapter_01/0122.md)
   * [0123 \(接口问题\)](chapter_01/0123.md)
   * [0124 \(集合相关问题\)](chapter_01/0124.md)
-  * [0125](chapter_01/0125.md)
+  * [0125 \(switch问题\)](chapter_01/0125.md)
   * [0126](chapter_01/0126.md)
   * [0127](chapter_01/0127.md)
   * [0128](chapter_01/0128.md)
