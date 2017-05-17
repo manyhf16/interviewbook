@@ -123,7 +123,7 @@
   * [0119 \(参数传值问题\)](chapter_01/0119.md)
   * [0120 \(try-catch-finally执行流程问题\)](chapter_01/0120.md)
   * [0121 \(数据类型问题\)](chapter_01/0121.md)
-  * [0122](chapter_01/0122.md)
+  * [0122 \(abstract问题\)](chapter_01/0122.md)
   * [0123](chapter_01/0123.md)
   * [0124](chapter_01/0124.md)
   * [0125](chapter_01/0125.md)
