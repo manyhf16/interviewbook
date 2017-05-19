@@ -5,7 +5,7 @@ search:
 ---
 
 
-# spring 声明周期方法
+# spring 生命周期方法相关问题
 1. 请描述spring中 lazy-init属性的作用和优缺点 
 2. 描述init-method 和destroy-method的作用
 3. 描述factory-method的作用
