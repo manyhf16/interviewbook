@@ -27,6 +27,7 @@ public class City {
 ```
 
 最后执行时会生成：
+
 ```sql
 insert into city(id,name) values(#{id},#{name})
 
