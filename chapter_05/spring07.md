@@ -5,11 +5,7 @@ search:
 ---
 
 
-# 题目问法
-
-1. spring中BeanFactory和ApplicationContext的联系和区别？
-
-2. IOC有哪几种类型? 
+# spring中BeanFactory和ApplicationContext的联系和区别？
 
 # 参考解答
 spring中的容器类型有两种：BeanFactory和ApplicationContext
