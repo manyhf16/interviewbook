@@ -26,9 +26,15 @@ public class City {
 </insert>
 ```
 
-最后执行时会生成：
+最后执行时会生成如下的等价jdbc代码：
 
-```sql
-insert into city(id,name) values(#{id},#{name})
-
+```java
+PreparedStatement psmt = conn.prepareStatement("insert into city(id,name) values(?,?)");
+psmt.setInt(1, id值);
+psmt.setStirng(s, name值);
+pstm.executeUpdate();
 ```
+
+
+
+
