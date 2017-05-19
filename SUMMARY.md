@@ -232,7 +232,7 @@
   * [0044 \(BS与CS的联系与区别？\)](chapter_04/0044.md)
   * [0045 \(过滤器有哪些作用\)](chapter_04/0045.md)
   * [0046 \(过滤器的用法？\)](chapter_04/0046.md)
-  * [0047](chapter_04/0047.md)
+  * [0047 \(解释一下ajax \)](chapter_04/0047.md)
 * [开源框架](chapter_05/README.md)
   * [spring01](chapter_05/spring01.md)
   * [spring02](chapter_05/spring02.md)
