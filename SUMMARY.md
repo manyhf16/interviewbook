@@ -169,7 +169,6 @@
   * [0016](chapter_02/0016.md)
   * [0017](chapter_02/0017.md)
   * [0018](chapter_02/0018.md)
-  * [0019](chapter_02/0019.md)
 * [缓存](chapter_03/README.md)
   * [0001](chapter_03/0001.md)
   * [0002](chapter_03/0002.md)
