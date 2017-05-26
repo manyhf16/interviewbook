@@ -172,7 +172,6 @@
   * [0002](chapter_03/0002.md)
   * [0003](chapter_03/0003.md)
   * [0004](chapter_03/0004.md)
-  * [0005](chapter_03/0005.md)
 * [Web编程](chapter_04/README.md)
   * [0001 \(说出Servlet的生命周期，并说出Servlet和CGI的区别？\)](chapter_04/0001.md)
   * [0002 \(Servlet的基本架构？\)](chapter_04/0002.md)
