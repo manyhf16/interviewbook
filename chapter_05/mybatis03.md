@@ -17,7 +17,7 @@ Mapper接口：
 ```java
 public interface EmpMapper {
 	@Select("select * from emp")
-	public List<Emp> selectByPage(RowBounds rb);
+	public List<Emp> findByPage(RowBounds rb);
 
 }
 ```
@@ -25,7 +25,7 @@ public interface EmpMapper {
 ```java
 EmpMapper mapper = sqlSession.getMapper(EmpMapper.class);
 RowBounds rb = new RowBounds(0, 5); // 查询第一页
-List<Emp> list = mapper.selectByPage(rb);
+List<Emp> list = mapper.findByPage(rb);
 ```
 
 逻辑分页的工作原理是：根据sql查询所有记录，然后通过jdbc中的的可滚动结果集实现分页，其中由RowBounds确定了本页第一条记录的下标(offset)和本页需要几条记录(limit)。
