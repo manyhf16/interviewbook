@@ -40,12 +40,6 @@ Mapper接口：
 Mapper XML：
 ```xml
 <select id="findByPage" parameterType="map" resultType="com.xingxue.entity.Dept">
-	<![CDATA[
-	select * from 
-		(select a.*, rownum rn from 
-		  (select * from dept) a
-		where rownum <= #{end})
-	where rn > #{begin}	
-	]]>
+	
 </select>
 ```
