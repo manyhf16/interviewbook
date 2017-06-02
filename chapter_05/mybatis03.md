@@ -97,3 +97,6 @@ List<Emp> list = mapper.findByPage(page);
 优点是效率高，缺点是不同数据库的分页sql语句有所不同，而mybatis并没有提供数据库方言，造成兼容性差
 
 > **注意** 有第三方的mybatis插件提供了更好的分页实现，主要是利用mybatis拦截器，在sql执行前，根据数据库方言，对原始硬编码植入分页代码
+
+---
+
