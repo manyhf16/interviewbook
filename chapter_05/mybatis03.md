@@ -92,3 +92,8 @@ Page page = new Page(1,5); // 查询第一页，每页5条
 List<Emp> list = mapper.findByPage(page);
 ```
 
+物理分页是直接使用sql语句实现分页，只会查询本页数据。
+
+优点是效率高，缺点是不同数据库的分页sql语句有所不同，而mybatis并没有提供数据库方言，造成兼容性差
+
+> 注意 有
