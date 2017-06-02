@@ -33,6 +33,7 @@ List<Emp> list = mapper.findByPage(rb);
 
 ## 物理分页例子
 Page 分页信息类：
+
 ```java
 public class Page {	
 	private int page; // 页号	
