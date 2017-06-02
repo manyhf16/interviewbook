@@ -23,7 +23,7 @@ public interface EmpMapper {
 使用：
 ```java
 EmpMapper mapper = sqlSession.getMapper(EmpMapper.class);
-RowBounds rb = new RowBounds(0, 5); // 查询第一页
+RowBounds rb = new RowBounds(0, 5); // 查询第一页，每页5条
 List<Emp> list = mapper.findByPage(rb);
 ```
 
@@ -38,6 +38,10 @@ Page 分页信息类：
 public class Page {	
 	private int page; // 页号	
 	private int rows; // 每页记录数
+	public Page(int page, int rows){
+		this.page = page;
+		this.rows = rows;
+	}
 	public int getPage() {
 		return page;
 	}
@@ -70,13 +74,21 @@ public interface EmpMapper {
 
 Mapper XML：
 ```xml
-<select id="findByPage" parameterType="Page" resultType="com.xingxue.entity.Dept">
+<select id="findByPage" parameterType="Page" resultType="Emp">
 	<![CDATA[
 	select * from 
 		(select a.*, rownum rn from 
-		  (select * from dept) a
+		  (select * from emp) a
 		where rownum <= #{end})
 	where rn > #{begin}	
 	]]>
 </select>
 ```
+
+使用：
+```java
+EmpMapper mapper = sqlSession.getMapper(EmpMapper.class);
+Page page = new Page(1,5); // 查询第一页，每页5条
+List<Emp> list = mapper.findByPage(page);
+```
+
