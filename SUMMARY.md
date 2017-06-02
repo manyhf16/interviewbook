@@ -241,6 +241,7 @@
   * [spring13 \(Struts2 vs SpringMVC？\)](chapter_05/spring13.md)
   * [mybatis01 \(简述mybatis的工作原理及运用？\)](chapter_05/mybatis01.md)
   * [mybatis02 \(mybatis 中 \#{} 和 ${} 的区别？\)](chapter_05/mybatis02.md)
+  * [mybatis03 \(mybatis中的缓存)](chapter_05/mybatis03.md)
   * [hibernate01](chapter_05/hibernate01.md)
   * [hibernate02](chapter_05/hibernate02.md)
   * [hibernate03 ](chapter_05/hibernate03.md)
