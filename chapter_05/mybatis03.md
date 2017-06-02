@@ -38,7 +38,7 @@ Mapper接口：
 ```
 
 Mapper XML：
-```
+```xml
 <select id="findByPage" parameterType="map" resultType="com.xingxue.entity.Dept">
 	<![CDATA[
 	select * from 
