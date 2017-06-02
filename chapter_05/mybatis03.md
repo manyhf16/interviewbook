@@ -13,6 +13,7 @@ mybatis中的分页有两种：一是mybatis自带的逻辑分页，二是自己
 
 ## 逻辑分页例子
 
+Mapper接口：
 ```java
 public interface EmpMapper {
 	@Select("select * from emp")
@@ -32,4 +33,19 @@ List<Emp> list = mapper.selectByPage(rb);
 它的优点是实现简单，无需通晓分页sql的编写，缺点是在需要获取整个查询结果集来实现分页，效率低，尤其在数据量较大时。
 
 ## 物理分页例子
+Mapper接口：
+```java
+```
 
+Mapper XML：
+```
+<select id="findByPage" parameterType="map" resultType="com.xingxue.entity.Dept">
+	<![CDATA[
+	select * from 
+		(select a.*, rownum rn from 
+		  (select * from dept) a
+		where rownum <= #{end})
+	where rn > #{begin}	
+	]]>
+</select>
+```
