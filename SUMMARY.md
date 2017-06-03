@@ -226,6 +226,7 @@
   * [0046 \(过滤器的用法？\)](chapter_04/0046.md)
   * [0047 \(解释一下ajax \)](chapter_04/0047.md)
   * [0048 \(列出5个应该遵循的JDBC最佳实践\)](chapter_04/0048.md)
+  * 0049
 * [开源框架](chapter_05/README.md)
   * [spring01 \(spring核心思想\)](chapter_05/spring01.md)
   * [spring02 \(spring 应用\)](chapter_05/spring02.md)
