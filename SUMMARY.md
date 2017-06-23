@@ -237,7 +237,7 @@
   * [spring06 \(springMVC常见注解？\)](chapter_05/spring06.md)
   * [spring07 \(spring中BeanFactory和ApplicationContext的联系和区别？\)](chapter_05/spring07.md)
   * [spring08 \(spring中循环注入？\)](chapter_05/spring08.md)
-  * [spring09 \(spring中循环注入？\)](chapter_05/spring09.md)
+  * [spring09 \(spring中依赖注入的方式？\)](chapter_05/spring09.md)
   * [spring10 \(spring 的 scope\)](chapter_05/spring10.md)
   * [spring11 \(spring 生命周期方法相关问题\)](chapter_05/spring11.md)
   * [spring12 \(srpingMVC的原理\)](chapter_05/spring12.md)
